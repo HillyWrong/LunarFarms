@@ -1,52 +1,64 @@
 fileFormatVersion: 2
-guid: be25bad3e767dab458248a0e45e713be
+guid: 3a6a6da940392af429ee7fa197b80757
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8416243949045666254
-    second: Untitled_Artwork 1_0
+      213: -6961174303512028263
+    second: AlienSpriteSheet_0
   - first:
-      213: -7652961046376491542
-    second: Untitled_Artwork 1_1
+      213: -575932859943249122
+    second: AlienSpriteSheet_1
   - first:
-      213: 4115303021519320934
-    second: Untitled_Artwork 1_2
+      213: -6590471166249698045
+    second: AlienSpriteSheet_2
   - first:
-      213: -677980041166861898
-    second: Untitled_Artwork 1_3
+      213: 7800917711369903697
+    second: AlienSpriteSheet_3
   - first:
-      213: 989365069609077539
-    second: Untitled_Artwork 1_4
+      213: 2266238678499329904
+    second: AlienSpriteSheet_4
   - first:
-      213: -7826761799034070207
-    second: Untitled_Artwork 1_5
+      213: 4245937773240189008
+    second: AlienSpriteSheet_5
   - first:
-      213: 2798171473733471245
-    second: Untitled_Artwork 1_6
+      213: -7001683263711395522
+    second: AlienSpriteSheet_6
   - first:
-      213: 7107002611567436829
-    second: Untitled_Artwork 1_7
+      213: 7689181344125606039
+    second: AlienSpriteSheet_7
   - first:
-      213: -2268154588056003468
-    second: Untitled_Artwork 1_8
+      213: 1478626903720363207
+    second: AlienSpriteSheet_8
   - first:
-      213: 924246314002099439
-    second: Untitled_Artwork 1_9
+      213: -4582043784749095791
+    second: AlienSpriteSheet_9
   - first:
-      213: 5101025216298472121
-    second: Untitled_Artwork 1_10
+      213: -9130401811547295979
+    second: AlienSpriteSheet_10
   - first:
-      213: -6207016124906200806
-    second: Untitled_Artwork 1_11
+      213: 1623343914090463903
+    second: AlienSpriteSheet_11
   - first:
-      213: -8620277063965676301
-    second: Untitled_Artwork 1_12
+      213: -6935258603051740488
+    second: AlienSpriteSheet_12
   - first:
-      213: 1773215160876767261
-    second: Untitled_Artwork 1_13
+      213: -4120346349234668258
+    second: AlienSpriteSheet_13
   - first:
-      213: -3630939131114541177
-    second: Untitled_Artwork 1_14
+      213: 3825054084784048429
+    second: AlienSpriteSheet_14
+  - first:
+      213: 592161515335094357
+    second: AlienSpriteSheet_15
+  - first:
+      213: -8004167991537001095
+    second: AlienSpriteSheet_16
+  - first:
+      213: 1817138119076343206
+    second: AlienSpriteSheet_17
+  - first:
+      213: -4112721295265599720
+    second: AlienSpriteSheet_18
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -93,7 +105,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -142,10 +154,98 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_Artwork 1_0
+      name: AlienSpriteSheet_0
       rect:
         serializedVersion: 2
         x: 13
+        y: 256
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b96935ad0f46f90800000000000000
+      internalID: -6961174303512028263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 256
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b9b948d10e108f0800000000000000
+      internalID: -575932859943249122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 256
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d7b316461f984a0800000000000000
+      internalID: -6590471166249698045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 256
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e9144d35d624c60800000000000000
+      internalID: 7800917711369903697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 14
         y: 192
         width: 37
         height: 62
@@ -157,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ec1d5edc7418cc470800000000000000
-      internalID: 8416243949045666254
+      spriteID: 0770430321c437f10800000000000000
+      internalID: 2266238678499329904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_1
+      name: AlienSpriteSheet_5
       rect:
         serializedVersion: 2
         x: 77
@@ -179,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae5d3d6b9783bc590800000000000000
-      internalID: -7652961046376491542
+      spriteID: 0500568a8e99cea30800000000000000
+      internalID: 4245937773240189008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_2
+      name: AlienSpriteSheet_6
       rect:
         serializedVersion: 2
         x: 143
@@ -201,14 +301,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66730c45b4e7c1930800000000000000
-      internalID: 4115303021519320934
+      spriteID: e314fac0b2605de90800000000000000
+      internalID: -7001683263711395522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_3
+      name: AlienSpriteSheet_7
       rect:
         serializedVersion: 2
         x: 206
@@ -223,106 +323,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b9c171aeb45796f0800000000000000
-      internalID: -677980041166861898
+      spriteID: 798da2681b575ba60800000000000000
+      internalID: 7689181344125606039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_4
+      name: AlienSpriteSheet_8
       rect:
         serializedVersion: 2
         x: 14
         y: 128
-        width: 37
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 32b8a37f94eeabd00800000000000000
-      internalID: 989365069609077539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled_Artwork 1_5
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 128
-        width: 37
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 14b1afa9c91c16390800000000000000
-      internalID: -7826761799034070207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled_Artwork 1_6
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 128
-        width: 37
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d0cc388412a15d620800000000000000
-      internalID: 2798171473733471245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled_Artwork 1_7
-      rect:
-        serializedVersion: 2
-        x: 206
-        y: 128
-        width: 37
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d142040883521a260800000000000000
-      internalID: 7107002611567436829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled_Artwork 1_8
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 64
         width: 37
         height: 60
       alignment: 0
@@ -333,18 +345,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 47cdf3b5b65e580e0800000000000000
-      internalID: -2268154588056003468
+      spriteID: 7c48697b553258410800000000000000
+      internalID: 1478626903720363207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_9
+      name: AlienSpriteSheet_9
       rect:
         serializedVersion: 2
         x: 76
-        y: 64
+        y: 128
         width: 37
         height: 61
       alignment: 0
@@ -355,18 +367,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fec2f0f202593dc00800000000000000
-      internalID: 924246314002099439
+      spriteID: 1946eb8547f4960c0800000000000000
+      internalID: -4582043784749095791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_10
+      name: AlienSpriteSheet_10
       rect:
         serializedVersion: 2
         x: 143
-        y: 64
+        y: 128
         width: 37
         height: 62
       alignment: 0
@@ -377,18 +389,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b2d7c7686b7ac640800000000000000
-      internalID: 5101025216298472121
+      spriteID: 51fe3266deb4a4180800000000000000
+      internalID: -9130401811547295979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_11
+      name: AlienSpriteSheet_11
       rect:
         serializedVersion: 2
         x: 15
-        y: 0
+        y: 64
         width: 35
         height: 63
       alignment: 0
@@ -399,17 +411,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a1128d778bf3cd9a0800000000000000
-      internalID: -6207016124906200806
+      spriteID: f9287a360b6478610800000000000000
+      internalID: 1623343914090463903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_12
+      name: AlienSpriteSheet_12
       rect:
         serializedVersion: 2
         x: 78
+        y: 64
+        width: 35
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b211ab8b0301cf90800000000000000
+      internalID: -6935258603051740488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 64
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d3a4e63d691d6c0800000000000000
+      internalID: -4120346349234668258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 64
+        width: 35
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29c5329c62551530800000000000000
+      internalID: 3825054084784048429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 12
         y: 0
         width: 35
         height: 62
@@ -421,17 +499,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3fce0e8beaf9e5880800000000000000
-      internalID: -8620277063965676301
+      spriteID: 5509433c2c7c73800800000000000000
+      internalID: 592161515335094357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_13
+      name: AlienSpriteSheet_16
       rect:
         serializedVersion: 2
-        x: 146
+        x: 72
         y: 0
         width: 35
         height: 63
@@ -443,17 +521,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d18956e3bc9bb9810800000000000000
-      internalID: 1773215160876767261
+      spriteID: 97d92ed9e9b7be090800000000000000
+      internalID: -8004167991537001095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_14
+      name: AlienSpriteSheet_17
       rect:
         serializedVersion: 2
-        x: 206
+        x: 140
         y: 0
         width: 35
         height: 62
@@ -465,8 +543,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78f2ad809105c9dc0800000000000000
-      internalID: -3630939131114541177
+      spriteID: 6aded5fdd75c73910800000000000000
+      internalID: 1817138119076343206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f6287a5cdace6c0800000000000000
+      internalID: -4112721295265599720
       vertices: []
       indices: 
       edges: []
@@ -475,7 +575,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0739c9e1daea9a94eb67aacc39b7c99e
+    spriteID: eb0da2d06dbe0a944beb4cc8204ebc4d
     internalID: 0
     vertices: []
     indices: 
@@ -487,21 +587,25 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Untitled_Artwork 1_0: 8416243949045666254
-      Untitled_Artwork 1_1: -7652961046376491542
-      Untitled_Artwork 1_10: 5101025216298472121
-      Untitled_Artwork 1_11: -6207016124906200806
-      Untitled_Artwork 1_12: -8620277063965676301
-      Untitled_Artwork 1_13: 1773215160876767261
-      Untitled_Artwork 1_14: -3630939131114541177
-      Untitled_Artwork 1_2: 4115303021519320934
-      Untitled_Artwork 1_3: -677980041166861898
-      Untitled_Artwork 1_4: 989365069609077539
-      Untitled_Artwork 1_5: -7826761799034070207
-      Untitled_Artwork 1_6: 2798171473733471245
-      Untitled_Artwork 1_7: 7107002611567436829
-      Untitled_Artwork 1_8: -2268154588056003468
-      Untitled_Artwork 1_9: 924246314002099439
+      AlienSpriteSheet_0: -6961174303512028263
+      AlienSpriteSheet_1: -575932859943249122
+      AlienSpriteSheet_10: -9130401811547295979
+      AlienSpriteSheet_11: 1623343914090463903
+      AlienSpriteSheet_12: -6935258603051740488
+      AlienSpriteSheet_13: -4120346349234668258
+      AlienSpriteSheet_14: 3825054084784048429
+      AlienSpriteSheet_15: 592161515335094357
+      AlienSpriteSheet_16: -8004167991537001095
+      AlienSpriteSheet_17: 1817138119076343206
+      AlienSpriteSheet_18: -4112721295265599720
+      AlienSpriteSheet_2: -6590471166249698045
+      AlienSpriteSheet_3: 7800917711369903697
+      AlienSpriteSheet_4: 2266238678499329904
+      AlienSpriteSheet_5: 4245937773240189008
+      AlienSpriteSheet_6: -7001683263711395522
+      AlienSpriteSheet_7: 7689181344125606039
+      AlienSpriteSheet_8: 1478626903720363207
+      AlienSpriteSheet_9: -4582043784749095791
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

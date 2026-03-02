@@ -4,6 +4,9 @@ public class Movement : MonoBehaviour
 {
     public float speed;
 
+public Animator animator;
+ private SpriteRenderer spriteRenderer;
+
     private void Update()
     {
         float horizontal = Input.GetAxisRaw("Horizontal"); //A and D movement, side to side
@@ -12,8 +15,30 @@ public class Movement : MonoBehaviour
         Vector3 direction = new Vector3(horizontal, vertical);
 
         //next take current position and multiply by speed and time 
+       
+        AnimateMovement(direction);
 
         transform.position += direction * speed * Time.deltaTime;
+    
+    }
 
+    void AnimateMovement(Vector3 direction)
+    {
+        if(animator != null)
+        {
+            if(direction.magnitude > 0) //magnitude will always be pos cause it lenght
+            {
+                animator.SetBool("isMoving", true);
+
+                animator.SetFloat("horizontal", direction.x);
+                animator.SetFloat("vertical", direction.y);
+            }
+            else
+            {
+                animator.SetBool("isMoving", false);
+
+
+            }
+        }
     }
 }
