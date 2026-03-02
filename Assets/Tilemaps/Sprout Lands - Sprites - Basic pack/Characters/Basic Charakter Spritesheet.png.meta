@@ -1,52 +1,55 @@
 fileFormatVersion: 2
-guid: be25bad3e767dab458248a0e45e713be
+guid: 327661907f1528745a21907d67baee07
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8416243949045666254
-    second: Untitled_Artwork 1_0
+      213: 7595986285605212588
+    second: Basic Charakter Spritesheet_0
   - first:
-      213: -7652961046376491542
-    second: Untitled_Artwork 1_1
+      213: 533925764876870624
+    second: Basic Charakter Spritesheet_1
   - first:
-      213: 4115303021519320934
-    second: Untitled_Artwork 1_2
+      213: 3373380426956494817
+    second: Basic Charakter Spritesheet_2
   - first:
-      213: -677980041166861898
-    second: Untitled_Artwork 1_3
+      213: 459816943466525491
+    second: Basic Charakter Spritesheet_3
   - first:
-      213: 989365069609077539
-    second: Untitled_Artwork 1_4
+      213: 5902472224145541201
+    second: Basic Charakter Spritesheet_4
   - first:
-      213: -7826761799034070207
-    second: Untitled_Artwork 1_5
+      213: 5704146936193991084
+    second: Basic Charakter Spritesheet_5
   - first:
-      213: 2798171473733471245
-    second: Untitled_Artwork 1_6
+      213: -5312978444038240032
+    second: Basic Charakter Spritesheet_6
   - first:
-      213: 7107002611567436829
-    second: Untitled_Artwork 1_7
+      213: 1494002176974529289
+    second: Basic Charakter Spritesheet_7
   - first:
-      213: -2268154588056003468
-    second: Untitled_Artwork 1_8
+      213: 1518413977272292722
+    second: Basic Charakter Spritesheet_8
   - first:
-      213: 924246314002099439
-    second: Untitled_Artwork 1_9
+      213: 1804082577669914558
+    second: Basic Charakter Spritesheet_9
   - first:
-      213: 5101025216298472121
-    second: Untitled_Artwork 1_10
+      213: -3681317567185701923
+    second: Basic Charakter Spritesheet_10
   - first:
-      213: -6207016124906200806
-    second: Untitled_Artwork 1_11
+      213: -1238460308712774548
+    second: Basic Charakter Spritesheet_11
   - first:
-      213: -8620277063965676301
-    second: Untitled_Artwork 1_12
+      213: 4608324168894639126
+    second: Basic Charakter Spritesheet_12
   - first:
-      213: 1773215160876767261
-    second: Untitled_Artwork 1_13
+      213: 3328763754989776407
+    second: Basic Charakter Spritesheet_13
   - first:
-      213: -3630939131114541177
-    second: Untitled_Artwork 1_14
+      213: 2184765777873843538
+    second: Basic Charakter Spritesheet_14
+  - first:
+      213: 5942205801420598518
+    second: Basic Charakter Spritesheet_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -79,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -93,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,7 +119,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -142,331 +145,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_Artwork 1_0
+      name: Basic Charakter Spritesheet_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 192
-        width: 37
-        height: 62
+        x: 16
+        y: 159
+        width: 16
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ec1d5edc7418cc470800000000000000
-      internalID: 8416243949045666254
+      spriteID: ca1dc30184d5a6960800000000000000
+      internalID: 7595986285605212588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_1
+      name: Basic Charakter Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 77
-        y: 192
-        width: 37
-        height: 62
+        x: 64
+        y: 159
+        width: 16
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae5d3d6b9783bc590800000000000000
-      internalID: -7652961046376491542
+      spriteID: 0e32aef77a2e86700800000000000000
+      internalID: 533925764876870624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_2
+      name: Basic Charakter Spritesheet_2
       rect:
         serializedVersion: 2
-        x: 143
-        y: 192
-        width: 37
-        height: 62
+        x: 112
+        y: 159
+        width: 16
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66730c45b4e7c1930800000000000000
-      internalID: 4115303021519320934
+      spriteID: 1e75ff810a7a0de20800000000000000
+      internalID: 3373380426956494817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_3
+      name: Basic Charakter Spritesheet_3
       rect:
         serializedVersion: 2
-        x: 206
-        y: 192
-        width: 37
-        height: 62
+        x: 160
+        y: 159
+        width: 16
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b9c171aeb45796f0800000000000000
-      internalID: -677980041166861898
+      spriteID: 3333709e219916600800000000000000
+      internalID: 459816943466525491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_4
+      name: Basic Charakter Spritesheet_4
       rect:
         serializedVersion: 2
-        x: 14
-        y: 128
-        width: 37
-        height: 62
+        x: 16
+        y: 111
+        width: 16
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32b8a37f94eeabd00800000000000000
-      internalID: 989365069609077539
+      spriteID: 1580ec8173bc9e150800000000000000
+      internalID: 5902472224145541201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_5
+      name: Basic Charakter Spritesheet_5
       rect:
         serializedVersion: 2
-        x: 77
-        y: 128
-        width: 37
-        height: 62
+        x: 64
+        y: 111
+        width: 16
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 14b1afa9c91c16390800000000000000
-      internalID: -7826761799034070207
+      spriteID: ca1c976aa63392f40800000000000000
+      internalID: 5704146936193991084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_6
+      name: Basic Charakter Spritesheet_6
       rect:
         serializedVersion: 2
-        x: 143
-        y: 128
-        width: 37
-        height: 62
+        x: 112
+        y: 111
+        width: 16
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0cc388412a15d620800000000000000
-      internalID: 2798171473733471245
+      spriteID: 0e80bc721428446b0800000000000000
+      internalID: -5312978444038240032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_7
+      name: Basic Charakter Spritesheet_7
       rect:
         serializedVersion: 2
-        x: 206
-        y: 128
-        width: 37
-        height: 62
+        x: 160
+        y: 111
+        width: 16
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d142040883521a260800000000000000
-      internalID: 7107002611567436829
+      spriteID: 9032a3c7013cbb410800000000000000
+      internalID: 1494002176974529289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_8
+      name: Basic Charakter Spritesheet_8
       rect:
         serializedVersion: 2
-        x: 14
-        y: 64
-        width: 37
-        height: 60
+        x: 18
+        y: 63
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 47cdf3b5b65e580e0800000000000000
-      internalID: -2268154588056003468
+      spriteID: 2759d49a77d721510800000000000000
+      internalID: 1518413977272292722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_9
+      name: Basic Charakter Spritesheet_9
       rect:
         serializedVersion: 2
-        x: 76
-        y: 64
-        width: 37
-        height: 61
+        x: 66
+        y: 63
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fec2f0f202593dc00800000000000000
-      internalID: 924246314002099439
+      spriteID: ebf7c73cb83690910800000000000000
+      internalID: 1804082577669914558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_10
+      name: Basic Charakter Spritesheet_10
       rect:
         serializedVersion: 2
-        x: 143
-        y: 64
-        width: 37
-        height: 62
+        x: 114
+        y: 63
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b2d7c7686b7ac640800000000000000
-      internalID: 5101025216298472121
+      spriteID: dd3bd765d2559ecc0800000000000000
+      internalID: -3681317567185701923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_11
+      name: Basic Charakter Spritesheet_11
       rect:
         serializedVersion: 2
-        x: 15
-        y: 0
-        width: 35
-        height: 63
+        x: 162
+        y: 63
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a1128d778bf3cd9a0800000000000000
-      internalID: -6207016124906200806
+      spriteID: c6421ce29ea10dee0800000000000000
+      internalID: -1238460308712774548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_12
+      name: Basic Charakter Spritesheet_12
       rect:
         serializedVersion: 2
-        x: 78
-        y: 0
-        width: 35
-        height: 62
+        x: 18
+        y: 15
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3fce0e8beaf9e5880800000000000000
-      internalID: -8620277063965676301
+      spriteID: 61cefc86a6e04ff30800000000000000
+      internalID: 4608324168894639126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_13
+      name: Basic Charakter Spritesheet_13
       rect:
         serializedVersion: 2
-        x: 146
-        y: 0
-        width: 35
-        height: 63
+        x: 66
+        y: 15
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d18956e3bc9bb9810800000000000000
-      internalID: 1773215160876767261
+      spriteID: 71e6c55aff4223e20800000000000000
+      internalID: 3328763754989776407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_14
+      name: Basic Charakter Spritesheet_14
       rect:
         serializedVersion: 2
-        x: 206
-        y: 0
-        width: 35
-        height: 62
+        x: 114
+        y: 15
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78f2ad809105c9dc0800000000000000
-      internalID: -3630939131114541177
+      spriteID: 255b99b46e8d15e10800000000000000
+      internalID: 2184765777873843538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic Charakter Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 15
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fca0f771b4f67250800000000000000
+      internalID: 5942205801420598518
       vertices: []
       indices: 
       edges: []
@@ -475,7 +500,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0739c9e1daea9a94eb67aacc39b7c99e
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -483,25 +508,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Untitled_Artwork 1_0: 8416243949045666254
-      Untitled_Artwork 1_1: -7652961046376491542
-      Untitled_Artwork 1_10: 5101025216298472121
-      Untitled_Artwork 1_11: -6207016124906200806
-      Untitled_Artwork 1_12: -8620277063965676301
-      Untitled_Artwork 1_13: 1773215160876767261
-      Untitled_Artwork 1_14: -3630939131114541177
-      Untitled_Artwork 1_2: 4115303021519320934
-      Untitled_Artwork 1_3: -677980041166861898
-      Untitled_Artwork 1_4: 989365069609077539
-      Untitled_Artwork 1_5: -7826761799034070207
-      Untitled_Artwork 1_6: 2798171473733471245
-      Untitled_Artwork 1_7: 7107002611567436829
-      Untitled_Artwork 1_8: -2268154588056003468
-      Untitled_Artwork 1_9: 924246314002099439
+      Basic Charakter Spritesheet_0: 7595986285605212588
+      Basic Charakter Spritesheet_1: 533925764876870624
+      Basic Charakter Spritesheet_10: -3681317567185701923
+      Basic Charakter Spritesheet_11: -1238460308712774548
+      Basic Charakter Spritesheet_12: 4608324168894639126
+      Basic Charakter Spritesheet_13: 3328763754989776407
+      Basic Charakter Spritesheet_14: 2184765777873843538
+      Basic Charakter Spritesheet_15: 5942205801420598518
+      Basic Charakter Spritesheet_2: 3373380426956494817
+      Basic Charakter Spritesheet_3: 459816943466525491
+      Basic Charakter Spritesheet_4: 5902472224145541201
+      Basic Charakter Spritesheet_5: 5704146936193991084
+      Basic Charakter Spritesheet_6: -5312978444038240032
+      Basic Charakter Spritesheet_7: 1494002176974529289
+      Basic Charakter Spritesheet_8: 1518413977272292722
+      Basic Charakter Spritesheet_9: 1804082577669914558
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
