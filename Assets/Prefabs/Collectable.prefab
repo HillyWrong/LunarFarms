@@ -108,7 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Collect
   type: 1
   icon: {fileID: -7612961689732629396, guid: d9258cac55b461b45bb74261417c73ec, type: 3}
-  rb2d: {fileID: 0}
+  rb2d: {fileID: 8562842252857119944}
 --- !u!61 &5706571152214316964
 BoxCollider2D:
   m_ObjectHideFlags: 0

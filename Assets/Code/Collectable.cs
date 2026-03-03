@@ -31,5 +31,5 @@ public class Collectable : MonoBehaviour
 }
  public enum CollectableType  //enum is a set of named constants that have an underlying numeric type, default associated constant is an interger.
     {
-        NONE, CARROT_SEED
+        NONE, CARROT_SEED, LETTUS_SEED
     }
