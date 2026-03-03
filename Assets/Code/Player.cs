@@ -6,7 +6,19 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
-        inventory = new Inventory(21);
+        inventory = new Inventory(16);
 
     }
+
+    public void DropItem(Collectable item)
+    {
+        Vector3 spawnLocation = transform.position;
+
+        Vector3 spawnOffset  = Random.insideUnitCircle * 5.25f;
+
+        Collectable droppedItem = Instantiate(item, spawnLocation + spawnOffset, Quaternion.identity);
+
+        droppedItem.rb2d.AddForce(spawnOffset * 2f, ForceMode2D.Impulse);
+    }
+
 }
