@@ -24,16 +24,16 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void DropItem(Collectable item)
+    public void DropItem(Item item)
     {
         Vector3 spawnLocation = transform.position;
 
-        Vector3 spawnOffset  = Random.insideUnitCircle * 5.25f;
+        Vector3 spawnOffset  = Random.insideUnitCircle * 1.25f;
 
-        Collectable droppedItem = Instantiate(item, spawnLocation + spawnOffset, Quaternion.identity);
+        Item droppedItem = Instantiate(item, spawnLocation + spawnOffset, Quaternion.identity);
 
         SpriteRenderer sr = droppedItem.GetComponent<SpriteRenderer>();
-        sr.sprite = item.icon;
+        //sr.sprite = item.icon;
         sr.sortingOrder = 7;
 
         droppedItem.rb2d.AddForce(spawnOffset * 2f, ForceMode2D.Impulse);

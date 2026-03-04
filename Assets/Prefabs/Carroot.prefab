@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 555739543392773102}
   - component: {fileID: 1696397605633376290}
   - component: {fileID: 6740287756616980300}
+  - component: {fileID: 8529174604223509100}
   m_Layer: 0
   m_Name: Carroot
   m_TagString: Untagged
@@ -106,9 +107,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2960712dd99c9e24c98d086a6fca7596, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Collect
-  type: 1
-  icon: {fileID: 1302723820812287101, guid: 66df17d02e49f1749981f15e41d507ef, type: 3}
-  rb2d: {fileID: 6740287756616980300}
 --- !u!61 &1696397605633376290
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -182,3 +180,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &8529174604223509100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250622973366165364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32e78dc7b51a65844b198be5cdbf8622, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Item
+  data: {fileID: 11400000, guid: 4cad466822cb44246a8e0895204f3870, type: 2}
+  rb2d: {fileID: 0}
