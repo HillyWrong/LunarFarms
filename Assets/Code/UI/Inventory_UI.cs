@@ -7,7 +7,10 @@ public class Inventory_UI : MonoBehaviour
     public Player player;
     public List<Slots_UI> slots = new List<Slots_UI>();
 
-
+void Start()
+    {
+        
+    }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Tab))
@@ -53,6 +56,7 @@ public class Inventory_UI : MonoBehaviour
     public void Remove(int slotID)
     {
         Collectable itemToDrop = GameManager.instance.itemManager.GetItemByType(player.inventory.slots[slotID].type);
+        Debug.Log(itemToDrop);
         
         if(itemToDrop != null)
         {
