@@ -9,7 +9,7 @@ public class Inventory_UI : MonoBehaviour
 
 void Start()
     {
-        
+        inventoryPanel.SetActive(false);
     }
     void Update()
     {
