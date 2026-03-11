@@ -67,18 +67,19 @@ void Start()
         }
     }
 
-    public void Remove(int slotID)
+    public void Remove()
     {
-        Item itemToDrop = GameManager.instance.itemManager.GetItemByName(player.inventory.slots[slotID].itemName);
+        Item itemToDrop = GameManager.instance.itemManager.GetItemByName(player.inventory.slots[draggedSlot.slotID].itemName);
         Debug.Log(itemToDrop);
         
         if(itemToDrop != null)
         {
             player.DropItem(itemToDrop);
-            player.inventory.Remove(slotID);
+            player.inventory.Remove(draggedSlot.slotID, player.inventory.slots[draggedSlot.slotID].count);
             Refresh();
         }
-        
+
+        draggedSlot = null;
         
     }
 
