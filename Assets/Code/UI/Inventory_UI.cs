@@ -10,7 +10,9 @@ public class Inventory_UI : MonoBehaviour
     public Player player;
     public List<Slots_UI> slots = new List<Slots_UI>();
 
-    [SerializeField] private Canvas canvas;
+    private Canvas canvas;
+
+    private bool dragSingle;
 
     private Slots_UI draggedSlot;
     private Image draggedIcon;
@@ -31,6 +33,16 @@ void Start()
         {
           ToggleInventory();  
         }
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            dragSingle = true; 
+        }
+        else
+        {
+            dragSingle = false;
+        }
+    
     }
 
     public void ToggleInventory()
@@ -74,8 +86,17 @@ void Start()
         
         if(itemToDrop != null)
         {
-            player.DropItem(itemToDrop);
+            if (dragSingle)
+            {
+                player.DropItem(itemToDrop);
+            player.inventory.Remove(draggedSlot.slotID);
+            }
+            else
+            {
+            player.DropItem(itemToDrop, player.inventory.slots[draggedSlot.slotID].count);
             player.inventory.Remove(draggedSlot.slotID, player.inventory.slots[draggedSlot.slotID].count);
+            }
+
             Refresh();
         }
 
@@ -86,12 +107,14 @@ void Start()
     public void SlotBeginDrag(Slots_UI slot)
     {
         draggedSlot = slot;
+
         draggedIcon = Instantiate(draggedSlot.itemIcon);
-        draggedIcon.transform.SetParent(canvas.transform);
         draggedIcon.raycastTarget = false;
-        draggedIcon.rectTransform.sizeDelta = new Vector2(1, 1);
+        draggedIcon.rectTransform.sizeDelta = new Vector2(29f, 19.5f);
+        draggedIcon.transform.SetParent(canvas.transform);
 
         MoveToMousePosition(draggedIcon.gameObject);
+
         Debug.Log("Start Drag: " + draggedSlot.name);
     }
 
