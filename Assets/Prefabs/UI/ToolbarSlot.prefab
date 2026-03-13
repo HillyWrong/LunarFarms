@@ -93,6 +93,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d7ccc07f65654b4eb532d6dd578f338, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Slots_UI
+  slotID: 0
   itemIcon: {fileID: 764934378037570548}
   quantityText: {fileID: 2761580686165311529}
   highlight: {fileID: 8751924836800131636}

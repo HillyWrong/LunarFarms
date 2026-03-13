@@ -846,6 +846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 415506152}
   - component: {fileID: 415506153}
+  - component: {fileID: 415506154}
   m_Layer: 5
   m_Name: Toolbar
   m_TagString: Untagged
@@ -886,6 +887,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Toolbar_UI
   toolbarSlots:
+  - {fileID: 1344309637}
+  - {fileID: 1801577906}
+  - {fileID: 2003758614}
+  - {fileID: 2002216827}
+  - {fileID: 446966742}
+  - {fileID: 1456246916}
+--- !u!114 &415506154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415506151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 680fb237a74ce9e4bacffa2ce5b32885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Inventory_UI
+  inventoryPanel: {fileID: 0}
+  player: {fileID: 742988484}
+  slots:
   - {fileID: 1344309637}
   - {fileID: 1801577906}
   - {fileID: 2003758614}
@@ -7596,6 +7618,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
   inventory:
+    slots: []
+  toolbar:
     slots: []
 --- !u!1001 &751730053
 PrefabInstance:
@@ -15999,7 +16023,6 @@ MonoBehaviour:
   - {fileID: 2012107890}
   - {fileID: 2036518393}
   - {fileID: 724025989}
-  canvas: {fileID: 0}
 --- !u!1001 &2072241400
 PrefabInstance:
   m_ObjectHideFlags: 0

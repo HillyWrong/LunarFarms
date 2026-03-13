@@ -14,6 +14,12 @@ GameObject:
   - component: {fileID: 1696397605633376290}
   - component: {fileID: 6740287756616980300}
   - component: {fileID: 8529174604223509100}
+  - component: {fileID: 6369207621404226374}
+  - component: {fileID: 2779890622285977643}
+  - component: {fileID: 6306312971670100704}
+  - component: {fileID: 9103429525798623028}
+  - component: {fileID: 6386698235157171526}
+  - component: {fileID: 1225960119046363499}
   m_Layer: 0
   m_Name: Carroot
   m_TagString: Untagged
@@ -194,3 +200,75 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Item
   data: {fileID: 11400000, guid: 4cad466822cb44246a8e0895204f3870, type: 2}
   rb2d: {fileID: 0}
+--- !u!114 &6369207621404226374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250622973366165364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399f40e9f8e2bd54bac6db290162bb95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FloatingCoin
+--- !u!114 &2779890622285977643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250622973366165364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399f40e9f8e2bd54bac6db290162bb95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+--- !u!114 &6306312971670100704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250622973366165364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399f40e9f8e2bd54bac6db290162bb95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+--- !u!114 &9103429525798623028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250622973366165364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399f40e9f8e2bd54bac6db290162bb95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+--- !u!114 &6386698235157171526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250622973366165364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399f40e9f8e2bd54bac6db290162bb95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+--- !u!114 &1225960119046363499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250622973366165364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399f40e9f8e2bd54bac6db290162bb95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
