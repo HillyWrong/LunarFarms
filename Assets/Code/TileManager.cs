@@ -1,4 +1,6 @@
+using Unity.Play.Publisher.Editor;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.Tilemaps;
 using UnityEngine.UIElements;
 
@@ -7,8 +9,15 @@ public class TileManager : MonoBehaviour
         [SerializeField] private Tilemap interactableMap ;
 
         [SerializeField] private Tile hiddenInteractableTile;
-        [SerializeField] private Tile plowedTile;
-        void Start()
+        [SerializeField] private Tile plowedTileDry;
+        [SerializeField] private Tile plowedTileWatered;
+
+        
+        private Crop currentCrop;
+        private bool tilled;
+    
+    
+    void Start()
     {
         foreach(var position in interactableMap .cellBounds.allPositionsWithin)
         {
@@ -25,7 +34,7 @@ public class TileManager : MonoBehaviour
     public void SetInteracted(Vector3Int position)
     {
     
-        interactableMap.SetTile(position, plowedTile);
+        interactableMap.SetTile(position, plowedTileDry);
     }
 
     public string GetTileName(Vector3Int position)
@@ -43,5 +52,31 @@ public class TileManager : MonoBehaviour
         return "";
     }
 
+    public void Till()
+    {
+       tilled = true;
+    }
+
+    public void Water(Vector3Int position)
+    {
+        interactableMap.SetTile(position, plowedTileWatered);
+
+    }
+
+    void OnNewDay()
+    {
+        if(currentCrop == null)
+        {
+            //tilled = false;
+            //sr.sprite = grassSprite;
+
+            GameManager.instance.onNewDay -= OnNewDay;
+        }
+        else if(currentCrop != null)
+        {
+            //sr.sprite = tilledSprite;
+            currentCrop.NewDayCheck();
+        }
+    }
 
 }

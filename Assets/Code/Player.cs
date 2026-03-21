@@ -1,11 +1,19 @@
 using System.Net;
+using JetBrains.Annotations;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class Player : MonoBehaviour
 {
 
     public InventoryManager inventoryManager;
     private TileManager tileManager;
+    private Crop currentCrop;
+    public GameObject cropPrefab;
+    public GameManager gameManager;
+    public TileManager tilled;
+
 
     private void Start()
     {
@@ -16,7 +24,7 @@ public class Player : MonoBehaviour
         inventoryManager = GetComponent<InventoryManager>();
     }
 
-    private void Update()
+    private void Interact()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -33,8 +41,23 @@ public class Player : MonoBehaviour
                         tileManager.SetInteracted(position);
                     }
                 }
+               
 
             }
+
+        void PlantNewCrop(CropData crop)
+        {
+            if (!tilled)
+            {
+                return;
+            }
+
+            currentCrop = Instantiate(cropPrefab, transform).GetComponent<Crop>();
+            currentCrop.Plant(crop);
+
+            GameManager.instance.onNewDay += gameManager.OnNewDay;
+        }
+    
         }
     }
 
@@ -52,6 +75,11 @@ public class Player : MonoBehaviour
 
         droppedItem.rb2d.AddForce(spawnOffset * 2f, ForceMode2D.Impulse);
     }
+
+   // private bool HasCrop()
+   // {
+       // return true;
+   
 
     public void DropItem(Item item, int numToDrop)
     {
