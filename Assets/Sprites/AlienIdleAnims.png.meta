@@ -1,64 +1,43 @@
 fileFormatVersion: 2
-guid: 3a6a6da940392af429ee7fa197b80757
+guid: dbe252f73b8f7d147b2c230053f08938
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6961174303512028263
-    second: AlienSpriteSheet_0
+      213: 7591842319262899912
+    second: AlienIdleAnims_0
   - first:
-      213: -575932859943249122
-    second: AlienSpriteSheet_1
+      213: 6749493569057531139
+    second: AlienIdleAnims_1
   - first:
-      213: -6590471166249698045
-    second: AlienSpriteSheet_2
+      213: 3235496948164276834
+    second: AlienIdleAnims_2
   - first:
-      213: 7800917711369903697
-    second: AlienSpriteSheet_3
+      213: -1659283235686220410
+    second: AlienIdleAnims_3
   - first:
-      213: 2266238678499329904
-    second: AlienSpriteSheet_4
+      213: 7987748823966792769
+    second: AlienIdleAnims_4
   - first:
-      213: 4245937773240189008
-    second: AlienSpriteSheet_5
+      213: -8996049788802691193
+    second: AlienIdleAnims_5
   - first:
-      213: -7001683263711395522
-    second: AlienSpriteSheet_6
+      213: -713724188950696637
+    second: AlienIdleAnims_6
   - first:
-      213: 7689181344125606039
-    second: AlienSpriteSheet_7
+      213: -8062116756831918945
+    second: AlienIdleAnims_7
   - first:
-      213: 1478626903720363207
-    second: AlienSpriteSheet_8
+      213: -85221582765945579
+    second: AlienIdleAnims_8
   - first:
-      213: -4582043784749095791
-    second: AlienSpriteSheet_9
+      213: 4905467728588916631
+    second: AlienIdleAnims_9
   - first:
-      213: -9130401811547295979
-    second: AlienSpriteSheet_10
+      213: -3998193822303308823
+    second: AlienIdleAnims_10
   - first:
-      213: 1623343914090463903
-    second: AlienSpriteSheet_11
-  - first:
-      213: -6935258603051740488
-    second: AlienSpriteSheet_12
-  - first:
-      213: -4120346349234668258
-    second: AlienSpriteSheet_13
-  - first:
-      213: 3825054084784048429
-    second: AlienSpriteSheet_14
-  - first:
-      213: 592161515335094357
-    second: AlienSpriteSheet_15
-  - first:
-      213: -8004167991537001095
-    second: AlienSpriteSheet_16
-  - first:
-      213: 1817138119076343206
-    second: AlienSpriteSheet_17
-  - first:
-      213: -4112721295265599720
-    second: AlienSpriteSheet_18
+      213: -5573927565744065690
+    second: AlienIdleAnims_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -128,8 +107,8 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
-    textureCompression: 1
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -154,7 +133,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -167,101 +146,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AlienSpriteSheet_0
-      rect:
-        serializedVersion: 2
-        x: 13
-        y: 256
-        width: 37
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 99b96935ad0f46f90800000000000000
-      internalID: -6961174303512028263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AlienSpriteSheet_1
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 256
-        width: 37
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e1b9b948d10e108f0800000000000000
-      internalID: -575932859943249122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AlienSpriteSheet_2
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 256
-        width: 37
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 30d7b316461f984a0800000000000000
-      internalID: -6590471166249698045
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AlienSpriteSheet_3
-      rect:
-        serializedVersion: 2
-        x: 206
-        y: 256
-        width: 37
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 15e9144d35d624c60800000000000000
-      internalID: 7800917711369903697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AlienSpriteSheet_4
+      name: AlienIdleAnims_0
       rect:
         serializedVersion: 2
         x: 14
         y: 192
         width: 37
-        height: 62
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0770430321c437f10800000000000000
-      internalID: 2266238678499329904
+      spriteID: 8ce5176bd54ab5960800000000000000
+      internalID: 7591842319262899912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienSpriteSheet_5
+      name: AlienIdleAnims_1
       rect:
         serializedVersion: 2
-        x: 77
+        x: 76
         y: 192
         width: 37
-        height: 62
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,14 +183,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0500568a8e99cea30800000000000000
-      internalID: 4245937773240189008
+      spriteID: 305257504a40bad50800000000000000
+      internalID: 6749493569057531139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienSpriteSheet_6
+      name: AlienIdleAnims_2
       rect:
         serializedVersion: 2
         x: 143
@@ -314,36 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e314fac0b2605de90800000000000000
-      internalID: -7001683263711395522
+      spriteID: 262313bf45bc6ec20800000000000000
+      internalID: 3235496948164276834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienSpriteSheet_7
-      rect:
-        serializedVersion: 2
-        x: 206
-        y: 192
-        width: 37
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 798da2681b575ba60800000000000000
-      internalID: 7689181344125606039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AlienSpriteSheet_8
+      name: AlienIdleAnims_3
       rect:
         serializedVersion: 2
         x: 14
@@ -358,14 +227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c48697b553258410800000000000000
-      internalID: 1478626903720363207
+      spriteID: 68d792b30ba09f8e0800000000000000
+      internalID: -1659283235686220410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienSpriteSheet_9
+      name: AlienIdleAnims_4
       rect:
         serializedVersion: 2
         x: 76
@@ -380,14 +249,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1946eb8547f4960c0800000000000000
-      internalID: -4582043784749095791
+      spriteID: 14cb5970c3f2ade60800000000000000
+      internalID: 7987748823966792769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienSpriteSheet_10
+      name: AlienIdleAnims_5
       rect:
         serializedVersion: 2
         x: 143
@@ -402,39 +271,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51fe3266deb4a4180800000000000000
-      internalID: -9130401811547295979
+      spriteID: 78f00b4516c972380800000000000000
+      internalID: -8996049788802691193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienSpriteSheet_11
+      name: AlienIdleAnims_6
       rect:
         serializedVersion: 2
-        x: 15
-        y: 64
-        width: 35
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f9287a360b6478610800000000000000
-      internalID: 1623343914090463903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AlienSpriteSheet_12
-      rect:
-        serializedVersion: 2
-        x: 78
+        x: 17
         y: 64
         width: 35
         height: 62
@@ -446,39 +293,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b211ab8b0301cf90800000000000000
-      internalID: -6935258603051740488
+      spriteID: 34d6df1b1a75816f0800000000000000
+      internalID: -713724188950696637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienSpriteSheet_13
+      name: AlienIdleAnims_7
       rect:
         serializedVersion: 2
-        x: 146
-        y: 64
-        width: 35
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e1d3a4e63d691d6c0800000000000000
-      internalID: -4120346349234668258
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AlienSpriteSheet_14
-      rect:
-        serializedVersion: 2
-        x: 206
+        x: 81
         y: 64
         width: 35
         height: 62
@@ -490,20 +315,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d29c5329c62551530800000000000000
-      internalID: 3825054084784048429
+      spriteID: f942f4b468b9d1090800000000000000
+      internalID: -8062116756831918945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienSpriteSheet_15
+      name: AlienIdleAnims_8
       rect:
         serializedVersion: 2
-        x: 12
-        y: 0
+        x: 145
+        y: 64
         width: 35
-        height: 62
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,17 +337,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5509433c2c7c73800800000000000000
-      internalID: 592161515335094357
+      spriteID: 51d0a080c6b31def0800000000000000
+      internalID: -85221582765945579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienSpriteSheet_16
+      name: AlienIdleAnims_9
       rect:
         serializedVersion: 2
-        x: 72
+        x: 10
         y: 0
         width: 35
         height: 63
@@ -534,17 +359,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97d92ed9e9b7be090800000000000000
-      internalID: -8004167991537001095
+      spriteID: 7974faba8e8b31440800000000000000
+      internalID: 4905467728588916631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienSpriteSheet_17
+      name: AlienIdleAnims_10
       rect:
         serializedVersion: 2
-        x: 140
+        x: 74
         y: 0
         width: 35
         height: 62
@@ -556,20 +381,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6aded5fdd75c73910800000000000000
-      internalID: 1817138119076343206
+      spriteID: 9e33376e6ef8388c0800000000000000
+      internalID: -3998193822303308823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienSpriteSheet_18
+      name: AlienIdleAnims_11
       rect:
         serializedVersion: 2
-        x: 203
+        x: 138
         y: 0
         width: 35
-        height: 63
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,8 +403,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 81f6287a5cdace6c0800000000000000
-      internalID: -4112721295265599720
+      spriteID: 6633110396e65a2b0800000000000000
+      internalID: -5573927565744065690
       vertices: []
       indices: 
       edges: []
@@ -588,7 +413,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: eb0da2d06dbe0a944beb4cc8204ebc4d
+    spriteID: 41683574b2670f34fb2564ada7472fde
     internalID: 0
     vertices: []
     indices: 
@@ -600,25 +425,18 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      AlienSpriteSheet_0: -6961174303512028263
-      AlienSpriteSheet_1: -575932859943249122
-      AlienSpriteSheet_10: -9130401811547295979
-      AlienSpriteSheet_11: 1623343914090463903
-      AlienSpriteSheet_12: -6935258603051740488
-      AlienSpriteSheet_13: -4120346349234668258
-      AlienSpriteSheet_14: 3825054084784048429
-      AlienSpriteSheet_15: 592161515335094357
-      AlienSpriteSheet_16: -8004167991537001095
-      AlienSpriteSheet_17: 1817138119076343206
-      AlienSpriteSheet_18: -4112721295265599720
-      AlienSpriteSheet_2: -6590471166249698045
-      AlienSpriteSheet_3: 7800917711369903697
-      AlienSpriteSheet_4: 2266238678499329904
-      AlienSpriteSheet_5: 4245937773240189008
-      AlienSpriteSheet_6: -7001683263711395522
-      AlienSpriteSheet_7: 7689181344125606039
-      AlienSpriteSheet_8: 1478626903720363207
-      AlienSpriteSheet_9: -4582043784749095791
+      AlienIdleAnims_0: 7591842319262899912
+      AlienIdleAnims_1: 6749493569057531139
+      AlienIdleAnims_10: -3998193822303308823
+      AlienIdleAnims_11: -5573927565744065690
+      AlienIdleAnims_2: 3235496948164276834
+      AlienIdleAnims_3: -1659283235686220410
+      AlienIdleAnims_4: 7987748823966792769
+      AlienIdleAnims_5: -8996049788802691193
+      AlienIdleAnims_6: -713724188950696637
+      AlienIdleAnims_7: -8062116756831918945
+      AlienIdleAnims_8: -85221582765945579
+      AlienIdleAnims_9: 4905467728588916631
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

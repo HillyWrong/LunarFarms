@@ -1,12 +1,13 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.UIElements;
 
 public class TileManager : MonoBehaviour
 {
         [SerializeField] private Tilemap interactableMap ;
 
         [SerializeField] private Tile hiddenInteractableTile;
-        [SerializeField] private Tile InteractedTile;
+        [SerializeField] private Tile plowedTile;
         void Start()
     {
         foreach(var position in interactableMap .cellBounds.allPositionsWithin)
@@ -21,28 +22,26 @@ public class TileManager : MonoBehaviour
 
         }
     }
-
-    public bool IsInteractable(Vector3Int position)
-    {
-        TileBase tile = interactableMap.GetTile(position);
-
-        if(tile != null)
-        {
-            if(tile.name == "Interactable")
-            {
-                return true;
-            }
-
-            
-
-        }
-        
-        return false;
-    }
     public void SetInteracted(Vector3Int position)
     {
     
-        interactableMap.SetTile(position, InteractedTile);
+        interactableMap.SetTile(position, plowedTile);
     }
+
+    public string GetTileName(Vector3Int position)
+    {
+        if (interactableMap != null)
+        {
+            TileBase tile = interactableMap.GetTile(position);
+
+            if (tile != null)
+            {
+                return tile.name;
+            }
+        }
+
+        return "";
+    }
+
 
 }
