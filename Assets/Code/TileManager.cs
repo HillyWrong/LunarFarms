@@ -6,6 +6,10 @@ public class TileManager : MonoBehaviour
         [SerializeField] private Tilemap interactableMap ;
         [SerializeField] private Tile hiddenInteractableTile;
         [SerializeField] private Tile plowedTile;
+        [SerializeField] private Tile wateredTile;
+
+
+        
         void Start()
     {
         foreach(var position in interactableMap .cellBounds.allPositionsWithin)
@@ -21,26 +25,19 @@ public class TileManager : MonoBehaviour
         }
     }
 
-    public bool IsInteractable(Vector3Int position)
-    {
-        TileBase tile = interactableMap.GetTile(position);
 
-        if(tile != null)
-        {
-            if(tile.name == "Interactable")
-            {
-                return true;
-            }
-        }
-
-        return false; 
-        
-    }
+    
     public void SetInteracted(Vector3Int position)
     {
     
         interactableMap.SetTile(position, plowedTile);
     }
+    public void SetWatered(Vector3Int position)
+    {
+    
+        interactableMap.SetTile(position, wateredTile);
+    }
+    
 
     public string GetTileName(Vector3Int position)
     {

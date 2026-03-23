@@ -29,14 +29,29 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Vector3Int position = new Vector3Int((int)transform.position.x, (int)transform.position.y, 0);
-
-            if (GameManager.instance.tileManager.IsInteractable(position))
+            if(tileManager != null)
             {
-                GameManager.instance.tileManager.SetInteracted(position);
-                isPlowed = true;
-            }
+                Vector3Int position = new Vector3Int((int)transform.position.x, (int)transform.position.y, 0);
 
+                string tileName = tileManager.GetTileName(position);
+
+                if (!string.IsNullOrWhiteSpace(tileName))
+                {
+                    if(tileName == "Interactable" && inventoryManager.toolbar.selectedSlot.itemName == "Hoe")
+                    {
+                        tileManager.SetInteracted(position);
+                    } 
+                    
+                    if(tileName == "DryPlowed_0" && inventoryManager.toolbar.selectedSlot.itemName == "WateringCan")
+                    {
+                        tileManager.SetWatered(position);
+            
+                    }
+                }
+
+               
+
+            }
         }
 
     }
