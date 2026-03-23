@@ -13678,10 +13678,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceaa9c6c09a06df4ca65e7b97b1e26c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  itemManager: {fileID: 0}
-  tileManager: {fileID: 0}
-  uiManager: {fileID: 0}
-  player: {fileID: 0}
+  itemManager: {fileID: 1811042590}
+  tileManager: {fileID: 1811042593}
+  uiManager: {fileID: 1811042594}
+  player: {fileID: 742988484}
 --- !u!4 &1811042592
 Transform:
   m_ObjectHideFlags: 0
@@ -13712,6 +13712,7 @@ MonoBehaviour:
   interactableMap: {fileID: 1897863849}
   hiddenInteractableTile: {fileID: 11400000, guid: 946a6b5c316fe1d4199d25c388d5f3bc, type: 2}
   plowedTile: {fileID: 11400000, guid: 5d9e0ea2842951843828adba65d64eb6, type: 2}
+  wateredTile: {fileID: 11400000, guid: ca2a8fc5a8e7bd74786fb77fba79c065, type: 2}
 --- !u!114 &1811042594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17553,7 +17554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6299769215120229190, guid: bf74384aaad1a7443b492d06c2ce86cc, type: 3}
       propertyPath: m_Name
-      value: WateringCan
+      value: WateringCan_Collectable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
