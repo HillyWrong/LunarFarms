@@ -9,10 +9,10 @@ public class Player : MonoBehaviour
 
     public InventoryManager inventoryManager;
     private TileManager tileManager;
-    private Crop currentCrop;
-    public GameObject cropPrefab;
+
+
     public GameManager gameManager;
-    public TileManager tilled;
+
 
 
     private void Start()
@@ -45,21 +45,35 @@ public class Player : MonoBehaviour
 
             }
 
-        void PlantNewCrop(CropData crop)
+       
+    }
+}
+
+private void Water()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (!tilled)
+            if(tileManager != null)
             {
-                return;
+                Vector3Int position = new Vector3Int((int)transform.position.x, (int)transform.position.y, 0);
+
+                string tileName = tileManager.GetTileName(position);
+
+                if (!string.IsNullOrWhiteSpace(tileName))
+                {
+                    if (tileName == "DryPLowed" && inventoryManager.toolbar.selectedSlot.itemName == "Hoe")
+                    {
+                        tileManager.SetInteracted(position);
+                    }
+                }
+               
+
             }
 
-            currentCrop = Instantiate(cropPrefab, transform).GetComponent<Crop>();
-            currentCrop.Plant(crop);
-
-            GameManager.instance.onNewDay += gameManager.OnNewDay;
-        }
-    
-        }
+       
+    } 
     }
+ 
 
     public void DropItem(Item item)
     {

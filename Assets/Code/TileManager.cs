@@ -37,6 +37,13 @@ public class TileManager : MonoBehaviour
         interactableMap.SetTile(position, plowedTileDry);
     }
 
+    public void SetWatered(Vector3Int position)
+    {
+    
+        interactableMap.SetTile(position, plowedTileWatered);
+    }
+
+
     public string GetTileName(Vector3Int position)
     {
         if (interactableMap != null)
@@ -55,12 +62,6 @@ public class TileManager : MonoBehaviour
     public void Till()
     {
        tilled = true;
-    }
-
-    public void Water(Vector3Int position)
-    {
-        interactableMap.SetTile(position, plowedTileWatered);
-
     }
 
     void OnNewDay()
