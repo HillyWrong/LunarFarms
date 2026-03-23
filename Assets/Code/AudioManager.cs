@@ -16,7 +16,6 @@ public class AudioManager : MonoBehaviour
     public AudioClip backgroundMusic;
     public AudioClip jumpSFX;
     public AudioClip collectiblesSFX;
-    public AudioClip WalkingSFX;
     void Awake()
     {
         if(Instance == null)
@@ -37,7 +36,6 @@ public class AudioManager : MonoBehaviour
             musicSource.clip = backgroundMusic;
             musicSource.loop = true;
             musicSource.Play();
-            
 
         }
     }

@@ -1,13 +1,12 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
-using UnityEngine.UIElements;
 
 public class TileManager : MonoBehaviour
 {
         [SerializeField] private Tilemap interactableMap ;
 
         [SerializeField] private Tile hiddenInteractableTile;
-        [SerializeField] private Tile plowedTile;
+        [SerializeField] private Tile InteractedTile;
         void Start()
     {
         foreach(var position in interactableMap .cellBounds.allPositionsWithin)
@@ -22,12 +21,31 @@ public class TileManager : MonoBehaviour
 
         }
     }
+
+    public bool IsInteractable(Vector3Int position)
+    {
+        TileBase tile = interactableMap.GetTile(position);
+
+        if(tile != null)
+        {
+            if(tile.name == "Interactable")
+            {
+                return true;
+            }
+
+            
+
+        }
+        
+        return false;
+    }
     public void SetInteracted(Vector3Int position)
     {
     
-        interactableMap.SetTile(position, plowedTile);
+        interactableMap.SetTile(position, InteractedTile);
     }
 
+<<<<<<< HEAD
     public void SetWatered(Vector3Int position)
     {
     
@@ -74,4 +92,6 @@ public class TileManager : MonoBehaviour
 =======
 >>>>>>> parent of db7d505 (tried to add planting and failed)
 
+=======
+>>>>>>> parent of 3c09a54 (Completed Plowing Mechanic)
 }

@@ -11,8 +11,6 @@ public class Toolbar_UI : MonoBehaviour
     {
         SelectSlot(0);
     }
-
-   
     public void SelectSlot(int index)
     {
         if(toolbarSlots.Count == 6)
@@ -21,11 +19,8 @@ public class Toolbar_UI : MonoBehaviour
             {
                 selectedSlot.SetHighlight(false);
             }
-
             selectedSlot = toolbarSlots[index];
             selectedSlot.SetHighlight(true);
-
-            GameManager.instance.player.inventoryManager.toolbar.SelectSlot(index);
         }   
     }
 

@@ -1,9 +1,9 @@
-using System.Net;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
 
+<<<<<<< HEAD
     public InventoryManager inventoryManager;
     private TileManager tileManager;
 <<<<<<< HEAD
@@ -19,33 +19,32 @@ public class Player : MonoBehaviour
     {
         tileManager = GameManager.instance.tileManager;
     }
+=======
+    public InventoryManager inventory;
+>>>>>>> parent of 3c09a54 (Completed Plowing Mechanic)
     private void Awake()
     {
-        inventoryManager = GetComponent<InventoryManager>();
+        inventory = GetComponent<InventoryManager>();
     }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if(tileManager != null)
+            Vector3Int position = new Vector3Int((int)transform.position.x, (int)transform.position.y, 0);
+
+            if (GameManager.instance.tileManager.IsInteractable(position))
             {
-                Vector3Int position = new Vector3Int((int)transform.position.x, (int)transform.position.y, 0);
-
-                string tileName = tileManager.GetTileName(position);
-
-                if (!string.IsNullOrWhiteSpace(tileName))
-                {
-                    if (tileName == "Interactable" && inventoryManager.toolbar.selectedSlot.itemName == "Hoe")
-                    {
-                        tileManager.SetInteracted(position);
-                    }
-                }
-
+                GameManager.instance.tileManager.SetInteracted(position);
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
        
+=======
+
+        }
+>>>>>>> parent of 3c09a54 (Completed Plowing Mechanic)
     }
 }
 

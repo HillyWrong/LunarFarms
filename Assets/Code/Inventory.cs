@@ -74,8 +74,6 @@ public class Inventory
 
     public List<Slot> slots = new List<Slot>();
 
-    public Slot selectedSlot = null;
-
     public Inventory(int numSlots)  //a constructor is a function that gets called when the object of the class gets created 
     {
         for(int i = 0; i < numSlots; i++)
@@ -136,13 +134,5 @@ public class Inventory
             }
         }
 
-    }
-
-    public void SelectSlot(int index)
-    {
-        if (slots != null && slots.Count > 0)
-        {
-            selectedSlot = slots[index];
-        }
     }
 }
