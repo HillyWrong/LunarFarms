@@ -65,12 +65,12 @@ private void Start()
         {
             if (UI_Manager.dragSingle)
             {
-                //GameManager.instance.player.DropItem(itemToDrop);
+                GameManager.instance.player.DropItem(itemToDrop, 1);
                 inventory.Remove(UI_Manager.draggedSlot.slotID);
             }
             else
             {
-            //GameManager.instance.player.DropItem(itemToDrop, inventory.slots[UI_Manager.draggedSlot.slotID].count);
+            GameManager.instance.player.DropItem(itemToDrop, inventory.slots[UI_Manager.draggedSlot.slotID].count);
             inventory.Remove(UI_Manager.draggedSlot.slotID, inventory.slots[UI_Manager.draggedSlot.slotID].count);
             }
 
