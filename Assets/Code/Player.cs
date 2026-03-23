@@ -1,19 +1,19 @@
 using System.Net;
-using JetBrains.Annotations;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.Rendering;
 
 public class Player : MonoBehaviour
 {
 
     public InventoryManager inventoryManager;
     private TileManager tileManager;
+<<<<<<< HEAD
 
 
     public GameManager gameManager;
 
 
+=======
+>>>>>>> parent of db7d505 (tried to add planting and failed)
 
     private void Start()
     {
@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
         inventoryManager = GetComponent<InventoryManager>();
     }
 
-    private void Interact()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -41,9 +41,9 @@ public class Player : MonoBehaviour
                         tileManager.SetInteracted(position);
                     }
                 }
-               
 
             }
+<<<<<<< HEAD
 
        
     }
@@ -72,6 +72,9 @@ private void Water()
 
        
     } 
+=======
+        }
+>>>>>>> parent of db7d505 (tried to add planting and failed)
     }
  
 
@@ -89,11 +92,6 @@ private void Water()
 
         droppedItem.rb2d.AddForce(spawnOffset * 2f, ForceMode2D.Impulse);
     }
-
-   // private bool HasCrop()
-   // {
-       // return true;
-   
 
     public void DropItem(Item item, int numToDrop)
     {

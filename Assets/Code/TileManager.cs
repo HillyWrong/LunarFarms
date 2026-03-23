@@ -1,6 +1,4 @@
-using Unity.Play.Publisher.Editor;
 using UnityEngine;
-using UnityEngine.Rendering;
 using UnityEngine.Tilemaps;
 using UnityEngine.UIElements;
 
@@ -9,15 +7,8 @@ public class TileManager : MonoBehaviour
         [SerializeField] private Tilemap interactableMap ;
 
         [SerializeField] private Tile hiddenInteractableTile;
-        [SerializeField] private Tile plowedTileDry;
-        [SerializeField] private Tile plowedTileWatered;
-
-        
-        private Crop currentCrop;
-        private bool tilled;
-    
-    
-    void Start()
+        [SerializeField] private Tile plowedTile;
+        void Start()
     {
         foreach(var position in interactableMap .cellBounds.allPositionsWithin)
         {
@@ -34,7 +25,7 @@ public class TileManager : MonoBehaviour
     public void SetInteracted(Vector3Int position)
     {
     
-        interactableMap.SetTile(position, plowedTileDry);
+        interactableMap.SetTile(position, plowedTile);
     }
 
     public void SetWatered(Vector3Int position)
@@ -59,6 +50,7 @@ public class TileManager : MonoBehaviour
         return "";
     }
 
+<<<<<<< HEAD
     public void Till()
     {
        tilled = true;
@@ -79,5 +71,7 @@ public class TileManager : MonoBehaviour
             currentCrop.NewDayCheck();
         }
     }
+=======
+>>>>>>> parent of db7d505 (tried to add planting and failed)
 
 }
