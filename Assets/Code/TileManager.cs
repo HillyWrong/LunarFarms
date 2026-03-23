@@ -1,11 +1,9 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
-using UnityEngine.UIElements;
 
 public class TileManager : MonoBehaviour
 {
         [SerializeField] private Tilemap interactableMap ;
-
         [SerializeField] private Tile hiddenInteractableTile;
         [SerializeField] private Tile plowedTile;
         void Start()
@@ -21,6 +19,22 @@ public class TileManager : MonoBehaviour
            interactableMap.SetTile(position, hiddenInteractableTile);
 
         }
+    }
+
+    public bool IsInteractable(Vector3Int position)
+    {
+        TileBase tile = interactableMap.GetTile(position);
+
+        if(tile != null)
+        {
+            if(tile.name == "Interactable")
+            {
+                return true;
+            }
+        }
+
+        return false; 
+        
     }
     public void SetInteracted(Vector3Int position)
     {
