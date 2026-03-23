@@ -9463,6 +9463,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1057213949}
   - component: {fileID: 1057213948}
+  - component: {fileID: 1057213947}
   - component: {fileID: 1057213946}
   - component: {fileID: 1057213951}
   - component: {fileID: 1057213950}
@@ -9517,6 +9518,14 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!81 &1057213947
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057213945}
+  m_Enabled: 1
 --- !u!20 &1057213948
 Camera:
   m_ObjectHideFlags: 0
@@ -9553,10 +9562,14 @@ Camera:
   field of view: 60
   orthographic: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   orthographic size: 2.7604167
 =======
   orthographic size: 2.6927083
 >>>>>>> parent of db7d505 (tried to add planting and failed)
+=======
+  orthographic size: 3.75
+>>>>>>> parent of 2d87d74 (Added partical efects library thing)
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -15557,7 +15570,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_Origin: {x: -8, y: -5, z: 0}
   m_Size: {x: 17, y: 9, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
