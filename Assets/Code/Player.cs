@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+using System.Net;
+>>>>>>> parent of db7d505 (tried to add planting and failed)
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -7,7 +11,10 @@ public class Player : MonoBehaviour
     public InventoryManager inventoryManager;
     private TileManager tileManager;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of db7d505 (tried to add planting and failed)
 
     public GameManager gameManager;
 
@@ -28,6 +35,7 @@ public class Player : MonoBehaviour
     }
 
     private void Update()
+<<<<<<< HEAD
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -49,6 +57,8 @@ public class Player : MonoBehaviour
 }
 
 private void Water()
+=======
+>>>>>>> parent of db7d505 (tried to add planting and failed)
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -65,13 +75,15 @@ private void Water()
                         tileManager.SetInteracted(position);
                     }
                 }
-               
 
             }
+<<<<<<< HEAD
 
        
     } 
 =======
+=======
+>>>>>>> parent of db7d505 (tried to add planting and failed)
         }
 >>>>>>> parent of db7d505 (tried to add planting and failed)
     }

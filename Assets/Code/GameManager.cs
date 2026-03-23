@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public Player player;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public int currentDay;
     public int money;
     
@@ -18,6 +19,8 @@ public class GameManager : MonoBehaviour
     public event UnityAction onNewDay;
 
 
+=======
+>>>>>>> parent of db7d505 (tried to add planting and failed)
 =======
 >>>>>>> parent of db7d505 (tried to add planting and failed)
     private void Awake()
@@ -40,7 +43,10 @@ public class GameManager : MonoBehaviour
         player = FindObjectOfType<Player>();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of db7d505 (tried to add planting and failed)
 =======
 >>>>>>> parent of db7d505 (tried to add planting and failed)
 }

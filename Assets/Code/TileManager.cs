@@ -6,7 +6,11 @@ public class TileManager : MonoBehaviour
         [SerializeField] private Tilemap interactableMap ;
 
         [SerializeField] private Tile hiddenInteractableTile;
+<<<<<<< HEAD
         [SerializeField] private Tile InteractedTile;
+=======
+        [SerializeField] private Tile plowedTile;
+>>>>>>> parent of db7d505 (tried to add planting and failed)
         void Start()
     {
         foreach(var position in interactableMap .cellBounds.allPositionsWithin)
@@ -42,7 +46,11 @@ public class TileManager : MonoBehaviour
     public void SetInteracted(Vector3Int position)
     {
     
+<<<<<<< HEAD
         interactableMap.SetTile(position, InteractedTile);
+=======
+        interactableMap.SetTile(position, plowedTile);
+>>>>>>> parent of db7d505 (tried to add planting and failed)
     }
 
 <<<<<<< HEAD
@@ -69,6 +77,7 @@ public class TileManager : MonoBehaviour
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public void Till()
     {
        tilled = true;
@@ -89,6 +98,8 @@ public class TileManager : MonoBehaviour
             currentCrop.NewDayCheck();
         }
     }
+=======
+>>>>>>> parent of db7d505 (tried to add planting and failed)
 =======
 >>>>>>> parent of db7d505 (tried to add planting and failed)
 

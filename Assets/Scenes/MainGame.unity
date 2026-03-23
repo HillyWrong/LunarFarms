@@ -8000,7 +8000,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a489576b8d355d4aa61adf0b477db90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
+<<<<<<< HEAD
   inventory: {fileID: 0}
+=======
+  inventoryManager: {fileID: 0}
+>>>>>>> parent of db7d505 (tried to add planting and failed)
 --- !u!114 &742988485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9548,7 +9552,11 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
+<<<<<<< HEAD
   orthographic size: 2.7604167
+=======
+  orthographic size: 2.6927083
+>>>>>>> parent of db7d505 (tried to add planting and failed)
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -13660,7 +13668,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TileManager
   interactableMap: {fileID: 1897863849}
   hiddenInteractableTile: {fileID: 11400000, guid: 946a6b5c316fe1d4199d25c388d5f3bc, type: 2}
+<<<<<<< HEAD
   InteractedTile: {fileID: 11400000, guid: ca2a8fc5a8e7bd74786fb77fba79c065, type: 2}
+=======
+  plowedTile: {fileID: 11400000, guid: ca2a8fc5a8e7bd74786fb77fba79c065, type: 2}
+>>>>>>> parent of db7d505 (tried to add planting and failed)
 --- !u!114 &1811042594
 MonoBehaviour:
   m_ObjectHideFlags: 0
