@@ -47,6 +47,9 @@ public class Player : MonoBehaviour
                         tileManager.SetWatered(position);
             
                     }
+
+                
+                
                 }
 
                

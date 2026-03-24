@@ -44,8 +44,8 @@ public class Inventory
 
         public void AddItem(Item item)
         {
-            this.itemName = item.data.itemName;
-            this.icon = item.data.icon;
+            this.itemName = item.itemData.itemName;
+            this.icon = item.itemData.icon;
             count++;
         }
         public void AddItem(string itemName, Sprite icon, int maxAllowed)
@@ -89,7 +89,7 @@ public class Inventory
     {
         foreach(Slot slot in slots)
         {
-            if(slot.itemName == item.data.itemName && slot.CanAddItem(item.data.itemName))
+            if(slot.itemName == item.itemData.itemName && slot.CanAddItem(item.itemData.itemName))
             {
                 slot.AddItem(item);
                 return;

@@ -198,7 +198,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32e78dc7b51a65844b198be5cdbf8622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  data: {fileID: 11400000, guid: 4cad466822cb44246a8e0895204f3870, type: 2}
+  itemData: {fileID: 11400000, guid: 4cad466822cb44246a8e0895204f3870, type: 2}
+  cropdata: {fileID: 11400000, guid: 68cb757cc0ebc214d8f3da930e4dc826, type: 2}
   rb2d: {fileID: 0}
 --- !u!114 &6369207621404226374
 MonoBehaviour:

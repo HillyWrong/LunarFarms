@@ -13681,6 +13681,8 @@ MonoBehaviour:
   itemManager: {fileID: 1811042590}
   tileManager: {fileID: 1811042593}
   uiManager: {fileID: 1811042594}
+  currentDay: 0
+  money: 0
   player: {fileID: 742988484}
 --- !u!4 &1811042592
 Transform:

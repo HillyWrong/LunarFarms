@@ -37,6 +37,12 @@ public class TileManager : MonoBehaviour
     
         interactableMap.SetTile(position, wateredTile);
     }
+
+    public void SetPlanted(Vector3Int position)
+    {
+    
+        interactableMap.SetTile(position, wateredTile);
+    }
     
 
     public string GetTileName(Vector3Int position)
