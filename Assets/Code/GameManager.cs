@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     public TileManager tileManager;
     public UI_Manager uiManager;
     public int currentDay;
-    public int money;
+   
 
     public Player player;
 
@@ -36,26 +36,6 @@ public class GameManager : MonoBehaviour
         player = FindObjectOfType<Player>();
     }
 
-    void OnEnable()
-    {
-        Crop.onPlantCrop += OnPlantCrop;
-        Crop.onHarvestCrop += OnHarvestCrop;
-    }
 
-    void OnDisable()
-    {
-        Crop.onPlantCrop -= OnPlantCrop;
-        Crop.onHarvestCrop -= OnHarvestCrop;
-    }
-
-
-    public void OnPlantCrop (CropData crop)
-    {
-        //delete one seed from inventory 
-    }
-
-    public void OnHarvestCrop(CropData crop)
-    {
-        money += crop.sellPrice;
-    }
 }
+

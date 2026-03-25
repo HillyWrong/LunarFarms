@@ -1,13 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.Events;
 
 public class Crop : MonoBehaviour
 {
-    private CropData currentCrop;
+    public CropData currentCrop;
     private int plantDay;
     private int daysSinceLastWatered;
+    
+    
 
     SpriteRenderer sr;
 

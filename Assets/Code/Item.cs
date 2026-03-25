@@ -4,7 +4,7 @@ using UnityEngine;
 public class Item : MonoBehaviour
 {
     public ItemData itemData;
-    public CropData cropdata;
+    
 
    [HideInInspector] public Rigidbody2D rb2d;
 

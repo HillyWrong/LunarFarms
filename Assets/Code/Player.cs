@@ -1,6 +1,7 @@
-
-using System.Net;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class Player : MonoBehaviour
     private TileManager tileManager;
 
     public GameManager gameManager;
+    public Crop crop; 
 
     private bool isPlowed;
 
@@ -24,8 +26,8 @@ public class Player : MonoBehaviour
         inventory = GetComponent<InventoryManager>();
     }
 
-    private void Update()
 
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -40,24 +42,28 @@ public class Player : MonoBehaviour
                     if(tileName == "Interactable" && inventoryManager.toolbar.selectedSlot.itemName == "Hoe")
                     {
                         tileManager.SetInteracted(position);
+                        //Tilled = true;
                     } 
                     
                     if(tileName == "DryPlowed_0" && inventoryManager.toolbar.selectedSlot.itemName == "WateringCan")
                     {
                         tileManager.SetWatered(position);
+                        //watered = true;
             
                     }
 
-                
-                
+                     if(tileName == "WateredTile" && inventoryManager.toolbar.selectedSlot.itemName == "Caroot Seeds")
+                    {
+                        Player.PlantCrop(crop);
+
+                        //inventory.toolbar.Remove();
+                        Debug.Log("Planted");
+                    } 
                 }
-
-               
-
             }
         }
-
     }
+
     public void DropItem(Item item)
     {
         Vector2 spawnLocation = transform.position;
@@ -67,6 +73,14 @@ public class Player : MonoBehaviour
         Item DroppedItem = Instantiate(item, spawnLocation + spawnOffset, Quaternion.identity);
 
         DroppedItem.rb2d.AddForce(spawnOffset * .2f, ForceMode2D.Impulse);
+
+    } 
+
+    public void PlantCrop(Crop crop)
+    {
+        Vector2 spawnLocation = transform.position;
+
+        Crop PlantedCrop = Instantiate(, spawnLocation, Quaternion.identity);
 
     } 
 
