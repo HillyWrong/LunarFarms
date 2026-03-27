@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     public InventoryManager inventoryManager;
     private TileManager tileManager;
     public GameManager gameManager;
-    public GameObject Crop;
+    public GameObject cropPrefab;
 
     private bool isPlowed;
     private Crop crop;
@@ -55,7 +55,8 @@ public class Player : MonoBehaviour
 
                      if(tileName == "WateredTile" && inventoryManager.toolbar.selectedSlot.itemName == "Caroot Seeds")
                     {
-                        Instantiate(Crop, transform.position, Quaternion.identity);
+                        Instantiate(cropPrefab, transform.position, Quaternion.identity);
+                        cropPrefab.SetActive(true);
                         Debug.Log("Planted");
                     } 
                 }

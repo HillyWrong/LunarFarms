@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &660624085638370734
 Transform:
   m_ObjectHideFlags: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c75265e724058249b671bb0e2b6cbf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Crop
-  currentCrop: {fileID: 11400000, guid: 68cb757cc0ebc214d8f3da930e4dc826, type: 2}
+  cropData: {fileID: 11400000, guid: 68cb757cc0ebc214d8f3da930e4dc826, type: 2}
 --- !u!212 &3130479059781432699
 SpriteRenderer:
   serializedVersion: 2
@@ -93,7 +93,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_MaskInteraction: 0
   m_Sprite: {fileID: 364312003342110992, guid: a2a82d93f2b42bd418352ca34418727e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
