@@ -6,7 +6,7 @@ using UnityEngine.Tilemaps;
 
 public class TileManager : MonoBehaviour
 {
-        [SerializeField] private Tilemap interactableMap ;
+        [SerializeField] public Tilemap interactableMap ;
         [SerializeField] private Tile hiddenInteractableTile;
         [SerializeField] private Tile plowedTile;
         [SerializeField] private Tile wateredTile;
@@ -40,12 +40,6 @@ public class TileManager : MonoBehaviour
     
         interactableMap.SetTile(position, wateredTile);
     }
-
-    public void SetPlanted(Vector3Int position)
-    {
-    
-        interactableMap.SetTile(position, wateredTile);
-    }
     
 
     public string GetTileName(Vector3Int position)
@@ -62,5 +56,6 @@ public class TileManager : MonoBehaviour
 
         return "";
     }
+    
 }
     

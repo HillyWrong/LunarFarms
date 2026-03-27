@@ -1,17 +1,18 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Tilemaps;
 
 public class Player : MonoBehaviour
 {
     public InventoryManager inventoryManager;
     private TileManager tileManager;
-
     public GameManager gameManager;
-    public Crop crop; 
+    public GameObject Crop;
 
     private bool isPlowed;
+    private Crop crop;
 
 
     private void Start()
@@ -54,15 +55,15 @@ public class Player : MonoBehaviour
 
                      if(tileName == "WateredTile" && inventoryManager.toolbar.selectedSlot.itemName == "Caroot Seeds")
                     {
-                        Player.PlantCrop(crop);
-
-                        //inventory.toolbar.Remove();
+                        Instantiate(Crop, transform.position, Quaternion.identity);
                         Debug.Log("Planted");
                     } 
                 }
             }
         }
     }
+
+    
 
     public void DropItem(Item item)
     {
@@ -76,14 +77,7 @@ public class Player : MonoBehaviour
 
     } 
 
-    public void PlantCrop(Crop crop)
-    {
-        Vector2 spawnLocation = transform.position;
-
-        Crop PlantedCrop = Instantiate(, spawnLocation, Quaternion.identity);
-
-    } 
-
+   
     
     public void DropItem(Item item, int numToDrop)
     {

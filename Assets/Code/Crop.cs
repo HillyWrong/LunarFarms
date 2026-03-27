@@ -4,7 +4,7 @@ using UnityEngine.Events;
 
 public class Crop : MonoBehaviour
 {
-    public CropData currentCrop;
+    public CropData cropData;
     private int plantDay;
     private int daysSinceLastWatered;
     
@@ -17,7 +17,7 @@ public class Crop : MonoBehaviour
 
     public void Plant(CropData crop)
     {
-        currentCrop = crop;
+        cropData = crop;
         plantDay = GameManager.instance.currentDay;
         daysSinceLastWatered = 1;
         updateCropSprite();
@@ -41,13 +41,13 @@ public class Crop : MonoBehaviour
     {
         int cropProgress = CropProgress();
 
-        if(cropProgress < currentCrop.daysToGrow)
+        if(cropProgress < cropData.daysToGrow)
         {
-            sr.sprite = currentCrop.GrowProgressSprites[cropProgress];
+            sr.sprite = cropData.GrowProgressSprites[cropProgress];
         }
         else
         {
-            sr.sprite = currentCrop.readyToHarvestSprite;
+            sr.sprite = cropData.readyToHarvestSprite;
         }
     }
 
@@ -62,7 +62,7 @@ public class Crop : MonoBehaviour
         {
             if(CanHarvest())
             {
-                onHarvestCrop?.Invoke(currentCrop);
+                onHarvestCrop?.Invoke(cropData);
                 Destroy(gameObject);
             }        
         }
@@ -75,6 +75,6 @@ public class Crop : MonoBehaviour
 
     public bool CanHarvest()
     {
-        return CropProgress() >= currentCrop.daysToGrow;
+        return CropProgress() >= cropData.daysToGrow;
     }
 }
