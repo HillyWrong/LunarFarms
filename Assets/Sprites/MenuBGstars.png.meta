@@ -1,0 +1,1378 @@
+fileFormatVersion: 2
+guid: c20f3560303239748a9a76e7ea538251
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6328709263552878406
+    second: MenuBGstars_0
+  - first:
+      213: 3219383588411682775
+    second: MenuBGstars_1
+  - first:
+      213: 7640513929321732594
+    second: MenuBGstars_2
+  - first:
+      213: 9030002934143970512
+    second: MenuBGstars_3
+  - first:
+      213: 7134069626794830640
+    second: MenuBGstars_4
+  - first:
+      213: -4918744636508169726
+    second: MenuBGstars_5
+  - first:
+      213: 2019005775333260522
+    second: MenuBGstars_6
+  - first:
+      213: -676885918295411942
+    second: MenuBGstars_7
+  - first:
+      213: 8588027919127596285
+    second: MenuBGstars_8
+  - first:
+      213: -6625618371531777744
+    second: MenuBGstars_9
+  - first:
+      213: 288015236125682090
+    second: MenuBGstars_10
+  - first:
+      213: -1482884436713778922
+    second: MenuBGstars_11
+  - first:
+      213: 1147830822196359186
+    second: MenuBGstars_12
+  - first:
+      213: -6183230309110834398
+    second: MenuBGstars_13
+  - first:
+      213: -497040143260221436
+    second: MenuBGstars_14
+  - first:
+      213: 7473023060201348430
+    second: MenuBGstars_15
+  - first:
+      213: -5260339271644358721
+    second: MenuBGstars_16
+  - first:
+      213: -7813726165256858
+    second: MenuBGstars_17
+  - first:
+      213: 5417698394694022633
+    second: MenuBGstars_18
+  - first:
+      213: 6832580241133471338
+    second: MenuBGstars_19
+  - first:
+      213: -2919166214919028147
+    second: MenuBGstars_20
+  - first:
+      213: -7738470535352264385
+    second: MenuBGstars_21
+  - first:
+      213: -1870608683616577683
+    second: MenuBGstars_22
+  - first:
+      213: -4336008453783811776
+    second: MenuBGstars_23
+  - first:
+      213: -6273736453801622136
+    second: MenuBGstars_24
+  - first:
+      213: 8005309752867691512
+    second: MenuBGstars_25
+  - first:
+      213: 7113952583886791451
+    second: MenuBGstars_26
+  - first:
+      213: 1410900260639139731
+    second: MenuBGstars_27
+  - first:
+      213: -3813440529172566012
+    second: MenuBGstars_28
+  - first:
+      213: 3226024349647977433
+    second: MenuBGstars_29
+  - first:
+      213: 3547159265058578909
+    second: MenuBGstars_30
+  - first:
+      213: 3470265825939252184
+    second: MenuBGstars_31
+  - first:
+      213: 7120539261972874877
+    second: MenuBGstars_32
+  - first:
+      213: 3530122769771399019
+    second: MenuBGstars_33
+  - first:
+      213: 7111473392270082857
+    second: MenuBGstars_34
+  - first:
+      213: -7075111654195180732
+    second: MenuBGstars_35
+  - first:
+      213: 8204086454765912580
+    second: MenuBGstars_36
+  - first:
+      213: 8794793259801467190
+    second: MenuBGstars_37
+  - first:
+      213: 6171084372452837720
+    second: MenuBGstars_38
+  - first:
+      213: 1868994963130276477
+    second: MenuBGstars_39
+  - first:
+      213: -5036148497062850606
+    second: MenuBGstars_40
+  - first:
+      213: -7282664302183727291
+    second: MenuBGstars_41
+  - first:
+      213: -8089044851451625059
+    second: MenuBGstars_42
+  - first:
+      213: -1847117104058779405
+    second: MenuBGstars_43
+  - first:
+      213: -2431299529730554294
+    second: MenuBGstars_44
+  - first:
+      213: 3785269300284130251
+    second: MenuBGstars_45
+  - first:
+      213: -7895184802650244896
+    second: MenuBGstars_46
+  - first:
+      213: -579330100638475629
+    second: MenuBGstars_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MenuBGstars_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 119
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6471bc45b8714d750800000000000000
+      internalID: 6328709263552878406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 89
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df200f015c8dac20800000000000000
+      internalID: 3219383588411682775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 106
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f955a200fe880a60800000000000000
+      internalID: 7640513929321732594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 117
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dce26a53d3015d70800000000000000
+      internalID: 9030002934143970512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 119
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b6204178e410360800000000000000
+      internalID: 7134069626794830640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_5
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 90
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a921050db1dbbb0800000000000000
+      internalID: -4918744636508169726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 119
+        width: 51
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec73363e03f40c10800000000000000
+      internalID: 2019005775333260522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_7
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 120
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13b986f7d73b96f0800000000000000
+      internalID: -676885918295411942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_8
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 115
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfcccb024edce2770800000000000000
+      internalID: 8588027919127596285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 79
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039db83f1331d04a0800000000000000
+      internalID: -6625618371531777744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_10
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 84
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9eb2fc45c3ff300800000000000000
+      internalID: 288015236125682090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_11
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 87
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61158b2267cbb6be0800000000000000
+      internalID: -1482884436713778922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_12
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 90
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21032432d0aedef00800000000000000
+      internalID: 1147830822196359186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_13
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 83
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b15054bc0c03aa0800000000000000
+      internalID: -6183230309110834398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_14
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 88
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4008dd58f982a19f0800000000000000
+      internalID: -497040143260221436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_15
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 92
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d9a9521e285b760800000000000000
+      internalID: 7473023060201348430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_16
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 96
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7d99b8d458ff6b0800000000000000
+      internalID: -5260339271644358721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_17
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 73
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6653c8b157d34eff0800000000000000
+      internalID: -7813726165256858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_18
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 64
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5f0fb5cf78f2b40800000000000000
+      internalID: 5417698394694022633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_19
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 66
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a660d1c578332de50800000000000000
+      internalID: 6832580241133471338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_20
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 68
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d420e6f3bc90d77d0800000000000000
+      internalID: -2919166214919028147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_21
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 75
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39508b5c0e6b9490800000000000000
+      internalID: -7738470535352264385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_22
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 72
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67d54b20534a06e0800000000000000
+      internalID: -1870608683616577683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_23
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 47
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0490021d84763d3c0800000000000000
+      internalID: -4336008453783811776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_24
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 58
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8854cb85fe53fe8a0800000000000000
+      internalID: -6273736453801622136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_25
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 46
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb16a86ec2981f60800000000000000
+      internalID: 8005309752867691512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_26
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 57
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b136b870f26d9b260800000000000000
+      internalID: 7113952583886791451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_27
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 53
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397e6e0df46849310800000000000000
+      internalID: 1410900260639139731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_28
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 38
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400779e0b00f31bc0800000000000000
+      internalID: -3813440529172566012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 51
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db3785cd0425cc20800000000000000
+      internalID: 3226024349647977433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_30
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 51
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd16d83de8a0a3130800000000000000
+      internalID: 3547159265058578909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_31
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 53
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d36947e16cd82030800000000000000
+      internalID: 3470265825939252184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_32
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 30
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d768d178bbc31d260800000000000000
+      internalID: 7120539261972874877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_33
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 34
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b670eb9a4f38df030800000000000000
+      internalID: 3530122769771399019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_34
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 44
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92386ef3f5701b260800000000000000
+      internalID: 7111473392270082857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b4871af6720dd90800000000000000
+      internalID: -7075111654195180732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_36
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 8
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4028aead925cad170800000000000000
+      internalID: 8204086454765912580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_37
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 27
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639577b7fd16d0a70800000000000000
+      internalID: 8794793259801467190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_38
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 18
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859040b7a8814a550800000000000000
+      internalID: 6171084372452837720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_39
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 17
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7adf50440100f910800000000000000
+      internalID: 1868994963130276477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_40
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 24
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df8374ef910c1ab0800000000000000
+      internalID: -5036148497062850606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_41
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 9
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54fbbe10767ceea90800000000000000
+      internalID: -7282664302183727291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_42
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 19
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d910601b090fdbf80800000000000000
+      internalID: -8089044851451625059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_43
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 22
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f83702c7c8bd56e0800000000000000
+      internalID: -1847117104058779405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_44
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 19
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4606d395f9424ed0800000000000000
+      internalID: -2431299529730554294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_45
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 21
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc380a69f5af78430800000000000000
+      internalID: 3785269300284130251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_46
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 6
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e838f1a04bae6290800000000000000
+      internalID: -7895184802650244896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuBGstars_47
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a90c7c75ec5f7f0800000000000000
+      internalID: -579330100638475629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MenuBGstars_0: 6328709263552878406
+      MenuBGstars_1: 3219383588411682775
+      MenuBGstars_10: 288015236125682090
+      MenuBGstars_11: -1482884436713778922
+      MenuBGstars_12: 1147830822196359186
+      MenuBGstars_13: -6183230309110834398
+      MenuBGstars_14: -497040143260221436
+      MenuBGstars_15: 7473023060201348430
+      MenuBGstars_16: -5260339271644358721
+      MenuBGstars_17: -7813726165256858
+      MenuBGstars_18: 5417698394694022633
+      MenuBGstars_19: 6832580241133471338
+      MenuBGstars_2: 7640513929321732594
+      MenuBGstars_20: -2919166214919028147
+      MenuBGstars_21: -7738470535352264385
+      MenuBGstars_22: -1870608683616577683
+      MenuBGstars_23: -4336008453783811776
+      MenuBGstars_24: -6273736453801622136
+      MenuBGstars_25: 8005309752867691512
+      MenuBGstars_26: 7113952583886791451
+      MenuBGstars_27: 1410900260639139731
+      MenuBGstars_28: -3813440529172566012
+      MenuBGstars_29: 3226024349647977433
+      MenuBGstars_3: 9030002934143970512
+      MenuBGstars_30: 3547159265058578909
+      MenuBGstars_31: 3470265825939252184
+      MenuBGstars_32: 7120539261972874877
+      MenuBGstars_33: 3530122769771399019
+      MenuBGstars_34: 7111473392270082857
+      MenuBGstars_35: -7075111654195180732
+      MenuBGstars_36: 8204086454765912580
+      MenuBGstars_37: 8794793259801467190
+      MenuBGstars_38: 6171084372452837720
+      MenuBGstars_39: 1868994963130276477
+      MenuBGstars_4: 7134069626794830640
+      MenuBGstars_40: -5036148497062850606
+      MenuBGstars_41: -7282664302183727291
+      MenuBGstars_42: -8089044851451625059
+      MenuBGstars_43: -1847117104058779405
+      MenuBGstars_44: -2431299529730554294
+      MenuBGstars_45: 3785269300284130251
+      MenuBGstars_46: -7895184802650244896
+      MenuBGstars_47: -579330100638475629
+      MenuBGstars_5: -4918744636508169726
+      MenuBGstars_6: 2019005775333260522
+      MenuBGstars_7: -676885918295411942
+      MenuBGstars_8: 8588027919127596285
+      MenuBGstars_9: -6625618371531777744
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

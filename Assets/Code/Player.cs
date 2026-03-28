@@ -14,6 +14,8 @@ public class Player : MonoBehaviour
     private bool isPlowed;
     private Crop crop;
 
+    public bool isPlanted;
+
 
     private void Start()
     {
@@ -57,6 +59,7 @@ public class Player : MonoBehaviour
                     {
                         Instantiate(cropPrefab, transform.position, Quaternion.identity);
                         cropPrefab.SetActive(true);
+                        isPlanted = true;
                         Debug.Log("Planted");
                     } 
                 }

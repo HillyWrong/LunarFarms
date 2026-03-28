@@ -5,23 +5,24 @@ public class EnemyController : MonoBehaviour
     public Transform Target; // Reference to the player's transform
     public float detectionRange = 10000f; // Range within which the enemy will detect the target
     private Transform enemyTransform;
-    private bool isFollowing = false; // Flag to indicate if the enemy should move
+    private bool isFollowing = false;
 
     private void Start()
     {
+
         enemyTransform = transform;
     }
 
     private void Update()
     {
         // Check the distance between enemy and player
-        float distanceToPlayer = Vector2.Distance(enemyTransform.position, Target.position);
+        float distanceToTarget = Vector2.Distance(enemyTransform.position, Target.position);
 
         // If player is within detection range, start moving towards the player
-        if (distanceToPlayer <= detectionRange)
+        if (distanceToTarget <= detectionRange)
         {
             isFollowing = true;
-            MoveTowardsPlayer();
+            MoveTowardsTarget();
         }
         else
         {
@@ -29,12 +30,15 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    private void MoveTowardsPlayer()
+    private void MoveTowardsTarget()
     {
-        if (isFollowing)
+        
         {
-            Vector2 direction = (Target.position - enemyTransform.position).normalized;
-            enemyTransform.position = Vector2.MoveTowards(enemyTransform.position, Target.position, moveSpeed * Time.deltaTime);
+            if (isFollowing)
+            {
+                Vector2 direction = (Target.position - enemyTransform.position).normalized;
+                enemyTransform.position = Vector2.MoveTowards(enemyTransform.position, Target.position, moveSpeed * Time.deltaTime);
+            }
         }
     }
 
