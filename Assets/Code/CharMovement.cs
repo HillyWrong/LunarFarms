@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+     public ParticleSystem dust;
     public float speed;
 
 public Animator animator;
@@ -17,6 +18,7 @@ public Animator animator;
         //next take current position and multiply by speed and time 
        
         AnimateMovement(direction);
+        CreateDust();
 
         transform.position += direction * speed * Time.deltaTime;
     
@@ -41,4 +43,10 @@ public Animator animator;
             }
         }
     }
+
+     void CreateDust()
+    {
+        dust.Play();
+    }
+
 }

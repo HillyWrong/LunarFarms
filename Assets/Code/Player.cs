@@ -6,6 +6,7 @@ using UnityEngine.Tilemaps;
 
 public class Player : MonoBehaviour
 {
+   
     public InventoryManager inventoryManager;
     private TileManager tileManager;
     public GameManager gameManager;
@@ -91,6 +92,8 @@ public class Player : MonoBehaviour
         }
 
     }
+
+
 
 }
 
