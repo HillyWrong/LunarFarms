@@ -1,11 +1,14 @@
+using Unity.VisualScripting;
 using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     public float moveSpeed = 3f;
+    public GameObject crop;
     public Transform Target; // Reference to the player's transform
-    public float detectionRange = 10000f; // Range within which the enemy will detect the target
+    public Collider2D detectionRange;// Range within which the enemy will detect the target
     private Transform enemyTransform;
     private bool isFollowing = false;
+    
 
     private void Start()
     {
@@ -18,15 +21,18 @@ public class EnemyController : MonoBehaviour
         // Check the distance between enemy and player
         float distanceToTarget = Vector2.Distance(enemyTransform.position, Target.position);
 
-        // If player is within detection range, start moving towards the player
-        if (distanceToTarget <= detectionRange)
+        
+        if ()
         {
             isFollowing = true;
-            MoveTowardsTarget();
+            if (gameObject.CompareTag("crop"))
+                {
+                    MoveTowardsTarget();
+                }
         }
         else
         {
-            isFollowing = false; // Stop moving if player is out of range
+            isFollowing = false;
         }
     }
 
@@ -44,10 +50,11 @@ public class EnemyController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Check if the collision is with the player
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("crop"))
         {
-            isFollowing = false; // Stop moving when colliding with the player
+            MoveTowardsTarget();
         }
     }
+
+ 
 }

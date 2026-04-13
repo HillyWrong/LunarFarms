@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67fb7c490bfbf8845987704a2b3d65d2, type: 3}
   m_Name: Caroot
   m_EditorClassIdentifier: Assembly-CSharp::CropData
-  cropName: 
+  cropName: Caroot
   daysToGrow: 2
   GrowProgressSprites: []
   readyToHarvestSprite: {fileID: 8659116919336545764, guid: a2a82d93f2b42bd418352ca34418727e, type: 3}
