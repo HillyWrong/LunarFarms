@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - crop
+  - Audio
   layers:
   - Default
   - TransparentFX

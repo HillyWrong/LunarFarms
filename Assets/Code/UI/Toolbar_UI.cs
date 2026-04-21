@@ -6,11 +6,18 @@ public class Toolbar_UI : MonoBehaviour
     [SerializeField] private List<Slots_UI> toolbarSlots = new List<Slots_UI>();
 
     private Slots_UI selectedSlot;
+    AudioManager audioManager;
 
     private void Start()
     {
         SelectSlot(0);
     }
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
 
    
     public void SelectSlot(int index)
@@ -19,7 +26,10 @@ public class Toolbar_UI : MonoBehaviour
         {
             if(selectedSlot != null)
             {
+                audioManager.PlaySFX(audioManager.collectiblesSFX);
                 selectedSlot.SetHighlight(false);
+                
+
             }
 
             selectedSlot = toolbarSlots[index];

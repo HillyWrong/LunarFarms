@@ -7,6 +7,13 @@ public class Collectable : MonoBehaviour
     //add collectable to player
     //delete collectable from scene
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -17,6 +24,7 @@ public class Collectable : MonoBehaviour
             Item item = GetComponent<Item>();
 
             if(item != null )
+            audioManager.PlaySFX(audioManager.collectiblesSFX);
             {
                 player.inventoryManager.Add("Backpack", item);
                 Destroy(this.gameObject);

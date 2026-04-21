@@ -14,9 +14,9 @@ public class AudioManager : MonoBehaviour
 
     [Header("AudioClips")]
     public AudioClip backgroundMusic;
-    public AudioClip jumpSFX;
     public AudioClip collectiblesSFX;
     public AudioClip WalkingSFX;
+    public AudioClip ButtonSFX;
     void Awake()
     {
         if(Instance == null)
@@ -58,9 +58,18 @@ public class AudioManager : MonoBehaviour
             musicSource.Play();
 
         }
+    } 
+    public void PlayWalkingSFX(AudioClip clip)
+    {
+        if(clip!=null && sfxSource != null)
+        {
+            sfxSource.PlayOneShot(clip);
+        }
     }
         
-    }
+}
+
+   
 
         
     

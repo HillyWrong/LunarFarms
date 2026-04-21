@@ -1,4 +1,4 @@
- using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -13,9 +13,9 @@ public class Player : MonoBehaviour
     public GameObject cropPrefab;
 
     private bool isPlowed;
+    public bool isPlanted;
     private Crop crop;
 
-    public bool isPlanted;
 
 
     private void Start()
@@ -46,13 +46,13 @@ public class Player : MonoBehaviour
                     if(tileName == "Interactable" && inventoryManager.toolbar.selectedSlot.itemName == "Hoe")
                     {
                         tileManager.SetInteracted(position);
-                        //Tilled = true;
+                        
                     } 
                     
                     if(tileName == "DryPlowed_0" && inventoryManager.toolbar.selectedSlot.itemName == "WateringCan")
                     {
                         tileManager.SetWatered(position);
-                        //watered = true;
+                        
             
                     }
 
@@ -61,7 +61,11 @@ public class Player : MonoBehaviour
                         Instantiate(cropPrefab, transform.position, Quaternion.identity);
                         cropPrefab.SetActive(true);
                         isPlanted = true;
-                        Debug.Log("Planted");
+                        if(isPlanted == true)
+                        {
+                            cropPrefab.tag = "crop";
+                        }
+                        
                     } 
                 }
             }

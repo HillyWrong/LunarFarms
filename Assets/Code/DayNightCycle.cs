@@ -25,6 +25,7 @@ public class DayNightCycle : MonoBehaviour
     void Start()
     {
         ppv = gameObject.GetComponent<Volume>();
+        
     }
 
     void FixedUpdate()
@@ -106,7 +107,7 @@ public class DayNightCycle : MonoBehaviour
 
     public void DisplayTime()
     {
-        timeDisplay.text = string.Format("{0:00}:{1:00}", hours, mins);
+        timeDisplay.text = string.Format("{00:00}:{1:00}", hours, mins);
         dayDisplay.text = "Day: "+ days;
     }
 

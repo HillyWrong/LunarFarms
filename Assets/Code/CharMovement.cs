@@ -1,12 +1,18 @@
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-     public ParticleSystem dust;
+    AudioManager audioManager;
     public float speed;
 
 public Animator animator;
  private SpriteRenderer spriteRenderer;
+
+ private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
 
     private void Update()
     {
@@ -18,7 +24,8 @@ public Animator animator;
         //next take current position and multiply by speed and time 
        
         AnimateMovement(direction);
-        CreateDust();
+        
+        //audioManager.PlaySFX(audioManager.WalkingSFX);
 
         transform.position += direction * speed * Time.deltaTime;
     
@@ -44,9 +51,13 @@ public Animator animator;
         }
     }
 
-     void CreateDust()
+    private void playWalking()
     {
-        dust.Play();
+        if(animator.GetBool("isMoving" )== true)
+        {
+            audioManager.PlaySFX(audioManager.WalkingSFX);
+        }
     }
 
 }
+

@@ -4,37 +4,17 @@ public class EnemyController : MonoBehaviour
 {
     public float moveSpeed = 3f;
     public GameObject crop;
-    public Transform Target; // Reference to the player's transform
-    public Collider2D detectionRange;// Range within which the enemy will detect the target
+    public Transform Target;
+    public Collider2D detectionRange;
     private Transform enemyTransform;
     private bool isFollowing = false;
     
 
     private void Start()
     {
-
         enemyTransform = transform;
     }
 
-    private void Update()
-    {
-        // Check the distance between enemy and player
-        float distanceToTarget = Vector2.Distance(enemyTransform.position, Target.position);
-
-        
-        if ()
-        {
-            isFollowing = true;
-            if (gameObject.CompareTag("crop"))
-                {
-                    MoveTowardsTarget();
-                }
-        }
-        else
-        {
-            isFollowing = false;
-        }
-    }
 
     private void MoveTowardsTarget()
     {
