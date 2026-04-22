@@ -24,8 +24,8 @@ public class Collectable : MonoBehaviour
             Item item = GetComponent<Item>();
 
             if(item != null )
-            audioManager.PlaySFX(audioManager.collectiblesSFX);
             {
+                audioManager.PlaySFX(audioManager.collectiblesSFX);
                 player.inventoryManager.Add("Backpack", item);
                 Destroy(this.gameObject);
             }

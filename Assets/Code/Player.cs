@@ -58,13 +58,17 @@ public class Player : MonoBehaviour
 
                      if(tileName == "WateredTile" && inventoryManager.toolbar.selectedSlot.itemName == "Caroot Seeds")
                     {
-                        Instantiate(cropPrefab, transform.position, Quaternion.identity);
-                        cropPrefab.SetActive(true);
-                        isPlanted = true;
-                        if(isPlanted == true)
-                        {
-                            cropPrefab.tag = "crop";
-                        }
+
+                        tileManager.SetPlanted(position);
+                        tileManager.growing(position);
+
+                        //Instantiate(cropPrefab, transform.position, Quaternion.identity);
+                        //cropPrefab.SetActive(true);
+                        //isPlanted = true;
+                        //if(isPlanted == true)
+                        //{
+                       //     cropPrefab.tag = "crop";
+                       // }
                         
                     } 
                 }
