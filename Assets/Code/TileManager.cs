@@ -13,7 +13,15 @@ public class TileManager : MonoBehaviour
         [SerializeField] private Tile plantedTile;
         [SerializeField] private Tile[] GrowProgressSprites;
 
+        private int CurrentDay;
+        private int PlantDay;
+        private int DaysToGrow = 4;
 
+    public void Update()
+    {
+        DayNightCycle dayNightCycle = GetComponent<DayNightCycle>();
+        CurrentDay = dayNightCycle.days;
+    }
         
         void Start()
     {
@@ -48,16 +56,15 @@ public class TileManager : MonoBehaviour
         interactableMap.SetTile(position, plantedTile);
     }
 
-    public void growing(Vector3Int position) //I know this function is so ineffecient i just wanted to have something working tho..
-    {
-        DayNightCycle dayNightCycle = GetComponent<DayNightCycle>();
-        int CurrentDay = dayNightCycle.days;
+   // public Tile growing(TileName,Vector3Int position) //I know this function is so ineffecient i just wanted to have something working tho..
+    //{
+       // PlantDay = CurrentDay;
 
-       for(int i = 0; i <= CurrentDay; i++)
-        {
-            interactableMap.SetTile(position, GrowProgressSprites[i]);
-        }
-    }
+      //  while(PlantDay != (CurrentDay + DaysToGrow))
+      //  {
+           // interactableMap.SetTile(position, GrowProgressSprites[CurrentDay]);
+     //   }
+   // }
     public string GetTileName(Vector3Int position)
     {
         if (interactableMap != null)

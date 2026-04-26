@@ -60,15 +60,7 @@ public class Player : MonoBehaviour
                     {
 
                         tileManager.SetPlanted(position);
-                        tileManager.growing(position);
-
-                        //Instantiate(cropPrefab, transform.position, Quaternion.identity);
-                        //cropPrefab.SetActive(true);
-                        //isPlanted = true;
-                        //if(isPlanted == true)
-                        //{
-                       //     cropPrefab.tag = "crop";
-                       // }
+                        //tileManager.growing(position);
                         
                     } 
                 }

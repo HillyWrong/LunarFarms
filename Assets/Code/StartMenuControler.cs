@@ -1,14 +1,18 @@
+using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class StartMenuControler : MonoBehaviour
 {
-
+    public Animator transition;
+    public float TransitionTime = 1f;
     public GameObject TransitionScreen;
+
+    
     public void OnStartClick()
     {
-        TransitionScreen.SetActive(true);
-        SceneManager.LoadScene("MainGame");
+        StartCoroutine(LoadLevel(1));
     }
 
     public void OnExitClick()
@@ -18,4 +22,17 @@ public class StartMenuControler : MonoBehaviour
     #endif
         Application.Quit();
     } 
+
+    IEnumerator LoadLevel(int levelIndex)
+    {
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSeconds(TransitionTime);
+
+        SceneManager.LoadScene(levelIndex);
+    }
+
+    
+
+
 }
